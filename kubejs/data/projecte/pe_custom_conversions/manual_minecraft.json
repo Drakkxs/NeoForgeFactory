@@ -1,0 +1,36 @@
+{
+  "groups": {
+    "minecraft": {
+    "comment": "Minecraft Conversions",
+      "conversions": [
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:rods/wooden"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "tag": "c:dusts/wood",
+            "count": 2
+          }
+        }
+      ]
+    }
+  },
+  "values": {
+    "before": [
+      {
+        "type": "projecte:fluid",
+        "emc_value": 8,
+        "id": "minecraft:water"
+      },
+      {
+        "type": "projecte:fluid",
+        "emc_value": 8,
+        "id": "minecraft:lava"
+      }
+    ]
+  }
+}

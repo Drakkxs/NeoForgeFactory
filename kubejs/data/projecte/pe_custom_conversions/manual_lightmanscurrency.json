@@ -1,0 +1,36 @@
+{
+  "values": {
+    "before": [
+      {
+        "type": "projecte:item",
+        "emc_value": 1,
+        "id": "lightmanscurrency:coin_copper"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 100,
+        "id": "lightmanscurrency:coin_iron"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1000,
+        "id": "lightmanscurrency:coin_gold"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 10000,
+        "id": "lightmanscurrency:coin_emerald"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 100000,
+        "id": "lightmanscurrency:coin_diamond"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1000000,
+        "id": "lightmanscurrency:coin_netherite"
+      }
+    ]
+  }
+}

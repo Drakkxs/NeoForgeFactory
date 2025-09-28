@@ -21,8 +21,8 @@
 
     ServerEvents.recipes(event => {
 
-        const recipeHopperItem = event.findRecipes({ output: itemHopper, input: fluidHopper }).size()
-        const recipeFluidHopper = event.findRecipes({ output: fluidHopper, input: itemHopper }).size()
+        let recipeHopperItem = event.findRecipes({ output: itemHopper, input: fluidHopper }).size()
+        let recipeFluidHopper = event.findRecipes({ output: fluidHopper, input: itemHopper }).size()
 
         // If there is already a recipe that converts an item hopper to a fluid hopper, skip adding a recipe.
         if (!recipeFluidHopper) {
