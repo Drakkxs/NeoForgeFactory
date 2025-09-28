@@ -1,0 +1,60 @@
+[
+    {
+        "mincount": {
+            "amount": 5,
+            "hostile": true,
+            "spawntype": "natural"
+        },
+        "result": "deny"
+    },
+    {
+        "mincount": {
+            "amount": 5,
+            "passive": true,
+            "spawntype": "natural"
+        },
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "minecraft:villager",
+            "minecraft:iron_golem",
+            "minecraft:cat"
+        ],
+        "result": "default"
+    },
+    {
+        "mod": [
+            "productivebees",
+            "artifacts",
+            "lootr"
+        ],
+        "result": "default"
+    },
+    {
+        "mob": [
+            "minecraft:bat",
+            "minecraft:zombie_villager",
+            "minecraft:zombie",
+            "minecraft:baby_zombie",
+            "minecraft:husk",
+            "minecraft:stray",
+            "minecraft:drowned",
+            "minecraft:phantom",
+            "minecraft:evoker",
+            "minecraft:vex",
+            "minecraft:illusioner",
+            "minecraft:witch",
+            "minecraft:pillager",
+            "minecraft:skeleton",
+            "minecraft:creeper",
+            "minecraft:spider",
+            "minecraft:cave_spider",
+            "minecraft:enderman",
+            "minecraft:slime",
+            "minecraft:witch"
+        ],
+        "spawntype": "natural",
+        "result": "deny"
+    }
+]

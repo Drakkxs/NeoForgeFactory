@@ -1,0 +1,29 @@
+{
+    "comment": "List of KubeJS Mappers to create because ProjectE or ProjectE Integration doesn't fully support them.",
+    "mappers": [
+        "immersiveengineering:squeezer",
+        "immersiveengineering:mixer",
+        "industrialforegoing:dissolution_chamber",
+        "immersiveengineering:coke_oven",
+        "exdeorum:barrel_compost",
+        "exdeorum:barrel_fluid_transformation",
+        "exdeorum:hammer",
+        "exdeorum:barrel_fluid_mixing",
+        "exdeorum:crook",
+        "exdeorum:barrel_mixing",
+        "justdirethings:fluiddroprecipe",
+        "justdirethings:goospreadrecipe",
+        "powah:energizing"
+    ],
+    "notes": [
+        "The following mapping tasks are more difficult and likely need to be done manually:",
+        "Botany Pots (Its data involves lootables and blocks, seemingly generated on a per-world basis)",
+        "Exdeorum Sieveing (Chanced outputs, many of which ProjectE would not normally map)",
+        "Just Dire things (Not that it's difficult, but I doubt this is a simple json situation.)",
+        "Hostile Networks (Its data doesn't seem to be in JSON format)."
+    ],
+    "warnings": [
+        "Do not map the immersiveengineering:crusher, it will remove EMC values from various ores, ingots, and dusts.",
+        "Do not map the mekanism:sawing, it will remove EMC values from various wood and charcoal related items."
+    ]
+}
