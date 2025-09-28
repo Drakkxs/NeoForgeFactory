@@ -5,7 +5,7 @@
 
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
-
+    
     /**
      * Retrieves the item ID associated with a given tag using AlmostUnified.
      *
