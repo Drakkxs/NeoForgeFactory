@@ -1,0 +1,422 @@
+[
+  {
+    "item": "minecraft:chiseled_tuff_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:gravel_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:infested_cobblestone",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_diorite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:furnace",
+    "emc": 16000
+  },
+  {
+    "item": "minecraft:chiseled_deepslate",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_granite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_deepslate_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_andesite_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:polished_tuff_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_andesite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:granite",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_tuff",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:cobbled_deepslate",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:stone_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:polished_diorite",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coin_diamond",
+    "emc": 100000
+  },
+  {
+    "item": "minecraft:andesite_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:diorite_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:tuff_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:cobblestone_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:tuff_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:tuff_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:diorite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:cobbled_deepslate_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:polished_tuff_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:cobblestone_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_diorite_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:tuff_brick_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coin_netherite",
+    "emc": 1000000
+  },
+  {
+    "item": "lightmanscurrency:coin_copper",
+    "emc": 1
+  },
+  {
+    "item": "minecraft:cobblestone_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:cracked_deepslate_tiles",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:tuff_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_granite",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_deepslate_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coinpile_copper",
+    "emc": 9
+  },
+  {
+    "item": "lightmanscurrency:coinblock_gold",
+    "emc": 36000
+  },
+  {
+    "item": "lightmanscurrency:coinblock_emerald",
+    "emc": 360000
+  },
+  {
+    "item": "minecraft:deepslate_brick_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:deepslate",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:stone_tile_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:stone_brick_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:mossy_cobblestone_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:cobblestone",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:deepslate_tile_wall",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coin_iron",
+    "emc": 100
+  },
+  {
+    "item": "minecraft:stone_brick_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:diorite_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:stone_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:deepslate_tiles",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:cracked_stone_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:deepslate_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:chiseled_stone_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coinpile_emerald",
+    "emc": 90000
+  },
+  {
+    "item": "lightmanscurrency:coinpile_gold",
+    "emc": 9000
+  },
+  {
+    "item": "minecraft:stone_brick_slab",
+    "emc": 1000
+  },
+  {
+    "item": "lightmanscurrency:coin_gold",
+    "emc": 1000
+  },
+  {
+    "item": "supplementaries:stone_tile",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:smooth_stone_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:polished_deepslate_slab",
+    "emc": 1000
+  },
+  {
+    "item": "lightmanscurrency:coinpile_iron",
+    "emc": 900
+  },
+  {
+    "item": "minecraft:tuff_brick_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:granite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:deepslate_brick_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:andesite_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:infested_stone",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:deepslate_tile_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:deepslate_brick_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_deepslate",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:granite_slab",
+    "emc": 1000
+  },
+  {
+    "item": "lightmanscurrency:coinblock_diamond",
+    "emc": 3600000
+  },
+  {
+    "item": "minecraft:mossy_cobblestone_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:tuff_brick_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:infested_deepslate",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:stone_tile_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:cobbled_deepslate_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:mossy_cobblestone",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coinpile_netherite",
+    "emc": 9000000
+  },
+  {
+    "item": "lightmanscurrency:coinblock_copper",
+    "emc": 36
+  },
+  {
+    "item": "minecraft:andesite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:stone_pressure_plate",
+    "emc": 4000
+  },
+  {
+    "item": "minecraft:granite_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:tuff",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coinpile_diamond",
+    "emc": 900000
+  },
+  {
+    "item": "minecraft:stone_button",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coin_emerald",
+    "emc": 10000
+  },
+  {
+    "item": "minecraft:gravel",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:stone_tile_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:deepslate_tile_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:cracked_deepslate_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:andesite",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:mossy_cobblestone_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:diorite",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_tuff_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:cobbled_deepslate_wall",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coinblock_netherite",
+    "emc": 36000000
+  },
+  {
+    "item": "minecraft:polished_andesite",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coinblock_iron",
+    "emc": 3600
+  },
+  {
+    "item": "minecraft:stone",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:stone_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:smooth_stone",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:chiseled_tuff",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:pedestal",
+    "emc": 4000
+  },
+  {
+    "item": "minecraft:polished_granite_slab",
+    "emc": 1000
+  }
+]
