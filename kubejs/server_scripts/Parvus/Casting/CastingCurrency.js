@@ -9,6 +9,7 @@
 (() => {
     let debug = false; // Want some debug?
 
+    const recipePath = "kubejs/data/casting/recipe/lorem_ipsum.json"; // Path to save the datapack recipes to
     const castingRecipeType = "casting:melting";
     const coinTag = "#lightmanscurrency:coins";
     const coinItems = Ingredient.of(coinTag).itemIds;
@@ -106,7 +107,7 @@
             }
 
             // Create a new melting recipe
-            event.custom({
+            let meltingRecipe = event.custom({
                 "neoforge:conditions": [
                     {
                         "type": "almostunified:conditional",
@@ -133,9 +134,17 @@
                     "amount": transferrableCasting.get("output").asJsonObject.get("amount").asNumber,
                     "id": transferrableCasting.get("output").asJsonObject.get("id").asString
                 }
-            })
+            });
+            let path = recipePath.replace("lorem_ipsum", coinId.replace(":", "_"));
 
+            // Remove the recipe from the current recipe set to prevent duplication
+            meltingRecipe.remove();
+            if (debug) console.log(`Removed in-memory recipe for melting ${coinId}`);
+            // Export as a datapack recipe only if it doesn't already exist
+            if (JsonIO.read(path)) return;
 
+            JsonIO.write(path, meltingRecipe.json);
+            if (debug) console.log(`Created Datapack recipe for melting ${coinId}`);
         })
     })
 })()

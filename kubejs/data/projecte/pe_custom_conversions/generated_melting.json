@@ -388,6 +388,26 @@
 					"ingredients": [
 						{
 							"count": 1,
+							"type": "projecte:item",
+							"id": "lightmanscurrency:coin_copper"
+						},
+						{
+							"comment": "workstation",
+							"type": "projecte:item",
+							"id": "casting:controller",
+							"count": 1
+						}
+					],
+					"output": {
+						"amount": 10,
+						"id": "casting:molten_copper",
+						"type": "projecte:fluid"
+					}
+				},
+				{
+					"ingredients": [
+						{
+							"count": 1,
 							"tag": "c:storage_blocks/raw_uranium",
 							"type": "projecte:item"
 						},
@@ -901,6 +921,26 @@
 					"output": {
 						"amount": 810,
 						"id": "casting:molten_tin",
+						"type": "projecte:fluid"
+					}
+				},
+				{
+					"ingredients": [
+						{
+							"count": 1,
+							"type": "projecte:item",
+							"id": "lightmanscurrency:coin_iron"
+						},
+						{
+							"comment": "workstation",
+							"type": "projecte:item",
+							"id": "casting:controller",
+							"count": 1
+						}
+					],
+					"output": {
+						"amount": 10,
+						"id": "casting:molten_iron",
 						"type": "projecte:fluid"
 					}
 				},
@@ -2708,6 +2748,26 @@
 					"ingredients": [
 						{
 							"count": 1,
+							"type": "projecte:item",
+							"id": "lightmanscurrency:coin_gold"
+						},
+						{
+							"comment": "workstation",
+							"type": "projecte:item",
+							"id": "casting:controller",
+							"count": 1
+						}
+					],
+					"output": {
+						"amount": 10,
+						"id": "casting:molten_gold",
+						"type": "projecte:fluid"
+					}
+				},
+				{
+					"ingredients": [
+						{
+							"count": 1,
 							"tag": "c:nuggets/iron",
 							"type": "projecte:item"
 						},
@@ -3521,6 +3581,26 @@
 					"output": {
 						"amount": 10,
 						"id": "casting:molten_aluminum",
+						"type": "projecte:fluid"
+					}
+				},
+				{
+					"ingredients": [
+						{
+							"count": 1,
+							"type": "projecte:item",
+							"id": "lightmanscurrency:coin_diamond"
+						},
+						{
+							"comment": "workstation",
+							"type": "projecte:item",
+							"id": "casting:controller",
+							"count": 1
+						}
+					],
+					"output": {
+						"amount": 90,
+						"id": "casting:molten_diamond",
 						"type": "projecte:fluid"
 					}
 				},
@@ -4928,6 +5008,26 @@
 					"ingredients": [
 						{
 							"count": 1,
+							"type": "projecte:item",
+							"id": "lightmanscurrency:coin_emerald"
+						},
+						{
+							"comment": "workstation",
+							"type": "projecte:item",
+							"id": "casting:controller",
+							"count": 1
+						}
+					],
+					"output": {
+						"amount": 90,
+						"id": "casting:molten_emerald",
+						"type": "projecte:fluid"
+					}
+				},
+				{
+					"ingredients": [
+						{
+							"count": 1,
 							"tag": "c:nuggets/copper",
 							"type": "projecte:item"
 						},
@@ -5201,6 +5301,26 @@
 					"output": {
 						"amount": 90,
 						"id": "casting:molten_iridium",
+						"type": "projecte:fluid"
+					}
+				},
+				{
+					"ingredients": [
+						{
+							"count": 1,
+							"type": "projecte:item",
+							"id": "lightmanscurrency:coin_netherite"
+						},
+						{
+							"comment": "workstation",
+							"type": "projecte:item",
+							"id": "casting:controller",
+							"count": 1
+						}
+					],
+					"output": {
+						"amount": 90,
+						"id": "casting:molten_netherite",
 						"type": "projecte:fluid"
 					}
 				}

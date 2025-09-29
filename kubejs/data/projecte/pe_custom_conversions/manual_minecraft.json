@@ -1,13 +1,117 @@
 {
   "groups": {
-    "minecraft": {
-    "comment": "Minecraft Conversions",
+    "worldInteractions": {
+      "comment": "World Interaction Based Conversions",
       "conversions": [
         {
           "ingredients": [
             {
               "type": "projecte:item",
-              "tag": "c:rods/wooden"
+              "tag": "c:gravel",
+              "count": 1
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:sand",
+            "count": 1
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:cobblestones",
+              "count": 1
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:gravel",
+            "count": 1
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:fluid",
+              "tag": "c:lava",
+              "amount": 1000
+            },
+            {
+              "type": "projecte:fluid",
+              "tag": "c:water",
+              "amount": 1000
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:cobblestone",
+            "count": 1
+          }
+        }
+      ]
+    },
+    "water": {
+      "comment": "Water Based Conversions",
+      "conversions": [
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:sands",
+              "count": 1
+            },
+            {
+              "comment": "workstation",
+              "type": "projecte:fluid",
+              "tag": "c:water",
+              "amount": 1000
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:clay_ball",
+            "count": 4
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:sands",
+              "count": 1
+            },
+            {
+              "comment": "workstation",
+              "type": "projecte:fluid",
+              "tag": "c:water",
+              "amount": 1000
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:clay_ball",
+            "count": 4
+          }
+        }
+      ]
+    },
+    "grindstone": {
+      "comment": "Grindstone Based Conversions",
+      "conversions": [
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:rods/wooden",
+              "count": 1
+            },
+            {
+              "comment": "workstation",
+              "type": "projecte:item",
+              "id": "minecraft:grindstone",
+              "count": 1
             }
           ],
           "output": {
@@ -23,12 +127,12 @@
     "before": [
       {
         "type": "projecte:fluid",
-        "emc_value": 8,
+        "emc_value": 1,
         "id": "minecraft:water"
       },
       {
         "type": "projecte:fluid",
-        "emc_value": 8,
+        "emc_value": 1,
         "id": "minecraft:lava"
       }
     ]

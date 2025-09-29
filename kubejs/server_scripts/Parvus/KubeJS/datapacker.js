@@ -1,5 +1,3 @@
 // priority: -9999
 
-ServerEvents.recipes(event => {
-    
-})
+// Immediately Invoked Function Expression to prevent polluting the global namespace

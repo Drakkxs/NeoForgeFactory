@@ -1,0 +1,27 @@
+{
+	"neoforge:conditions": [
+		{
+			"type": "almostunified:conditional",
+			"conditions_met": true,
+			"original_conditions": [
+				{
+					"type": "neoforge:not",
+					"value": {
+						"type": "neoforge:tag_empty",
+						"tag": "#lightmanscurrency:coins"
+					}
+				}
+			]
+		}
+	],
+	"type": "casting:melting",
+	"input": {
+		"count": 1,
+		"item": "lightmanscurrency:coin_emerald"
+	},
+	"meltingTemp": 1000,
+	"output": {
+		"amount": 90,
+		"id": "casting:molten_emerald"
+	}
+}
