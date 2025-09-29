@@ -7,7 +7,7 @@
           "ingredients": [
             {
               "type": "projecte:item",
-              "tag": "c:gravel",
+              "tag": "c:gravels",
               "count": 1
             }
           ],

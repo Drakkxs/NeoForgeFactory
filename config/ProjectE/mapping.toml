@@ -1,7 +1,7 @@
 #Want to take a look at the internals of EMC Calculation? Enable this to write all the conversions and setValue-Commands to config/ProjectE/mapping_dump.json
 dumpToFile = false
 #When the next EMC mapping occurs write the results to config/ProjectE/pregenerated_emc.json and only ever run the mapping again when that file does not exist, this setting is set to false, or an error occurred parsing that file.
-usePregenerated = true
+usePregenerated = false
 #Logs known EMC Exploits. This can not and will not find all possible exploits. This will only find exploits that result in fixed/custom emc values that the algorithm did not overwrite. Exploits that derive from conversions that are unknown to ProjectE will not be found.
 logFoundExploits = true
 
@@ -21,22 +21,22 @@ logFoundExploits = true
 		#ProjectE-Integration Recipe Mapper for Farming For Blockheads Market Mapper. Required Mods: [farmingforblockheads]
 		[mappers.Crafting-Mapper.FarmingForBlockheadsMarketMapper]
 			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
+			enabled = false
 
 		#ProjectE-Integration Recipe Mapper for Applied Energistics Transform Mapper. Required Mods: [ae2]
 		[mappers.Crafting-Mapper.AppliedEnergisticsTransformMapper]
 			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
+			enabled = false
 
 		#ProjectE-Integration Recipe Mapper for Applied Energistics Inscriber Mapper. Required Mods: [ae2]
 		[mappers.Crafting-Mapper.AppliedEnergisticsInscriberMapper]
 			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
+			enabled = false
 
 		#ProjectE-Integration Recipe Mapper for Applied Energistics Charger Mapper. Required Mods: [ae2]
 		[mappers.Crafting-Mapper.AppliedEnergisticsChargerMapper]
 			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
+			enabled = false
 
 		#Maps the different vanilla recipe types.
 		[mappers.Crafting-Mapper.Vanilla-Recipe-Types]

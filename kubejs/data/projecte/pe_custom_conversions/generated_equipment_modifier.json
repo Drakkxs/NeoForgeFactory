@@ -10,12 +10,6 @@
 							"count": 4,
 							"type": "projecte:item",
 							"id": "minecraft:feather"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -30,12 +24,6 @@
 							"amount": 3200,
 							"id": "casting:molten_soul",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -50,12 +38,6 @@
 							"amount": 8000,
 							"id": "minecraft:lava",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -70,12 +52,6 @@
 							"count": 12,
 							"type": "projecte:item",
 							"id": "minecraft:sugar"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -90,12 +66,6 @@
 							"count": 8,
 							"type": "projecte:item",
 							"id": "minecraft:sponge"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -110,12 +80,6 @@
 							"amount": 720,
 							"id": "casting:molten_blaze",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -135,12 +99,6 @@
 							"count": 64,
 							"tag": "c:rods/wooden",
 							"type": "projecte:item"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -160,12 +118,6 @@
 							"count": 1,
 							"type": "projecte:item",
 							"id": "minecraft:flint_and_steel"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -180,12 +132,6 @@
 							"amount": 640,
 							"id": "casting:molten_ender",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -200,12 +146,6 @@
 							"amount": 360,
 							"id": "casting:molten_diamond",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -220,12 +160,6 @@
 							"amount": 8000,
 							"id": "casting:molten_obsidian",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -240,12 +174,6 @@
 							"amount": 720,
 							"id": "casting:molten_steel",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -265,12 +193,6 @@
 							"count": 8,
 							"tag": "c:gems/emerald",
 							"type": "projecte:item"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -285,12 +207,6 @@
 							"count": 4,
 							"type": "projecte:item",
 							"id": "minecraft:sticky_piston"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -305,12 +221,6 @@
 							"amount": 1350,
 							"id": "casting:molten_lapis",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -325,12 +235,6 @@
 							"count": 1,
 							"type": "projecte:item",
 							"id": "minecraft:nether_star"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -345,12 +249,6 @@
 							"amount": 500,
 							"id": "casting:molten_experience",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -365,12 +263,6 @@
 							"amount": 1350,
 							"id": "casting:molten_redstone",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -385,12 +277,6 @@
 							"count": 8,
 							"type": "projecte:item",
 							"id": "minecraft:magma_block"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -405,12 +291,6 @@
 							"amount": 1350,
 							"id": "casting:molten_quartz",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -425,12 +305,6 @@
 							"count": 4,
 							"type": "projecte:item",
 							"id": "minecraft:piston"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -450,12 +324,6 @@
 							"count": 6,
 							"tag": "c:ingots/iron",
 							"type": "projecte:item"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -470,12 +338,6 @@
 							"amount": 720,
 							"id": "casting:molten_emerald",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -490,12 +352,6 @@
 							"count": 8,
 							"type": "projecte:item",
 							"id": "minecraft:golden_carrot"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -510,12 +366,6 @@
 							"count": 2,
 							"type": "projecte:item",
 							"id": "minecraft:pufferfish"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -530,12 +380,6 @@
 							"count": 1,
 							"tag": "minecraft:skulls",
 							"type": "projecte:item"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -550,12 +394,6 @@
 							"amount": 8000,
 							"id": "casting:molten_glowstone",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {
@@ -575,12 +413,6 @@
 							"count": 1,
 							"type": "projecte:item",
 							"id": "minecraft:golden_apple"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:equipment_modifier",
-							"count": 1
 						}
 					],
 					"output": {

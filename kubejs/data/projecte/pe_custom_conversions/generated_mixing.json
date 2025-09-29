@@ -15,12 +15,6 @@
 							"amount": 90,
 							"id": "casting:molten_nickel",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -40,12 +34,6 @@
 							"amount": 250,
 							"id": "casting:molten_quartz",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -70,12 +58,6 @@
 							"amount": 1000,
 							"id": "casting:molten_copper_alloy",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -95,12 +77,6 @@
 							"amount": 90,
 							"id": "casting:molten_redstone",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -120,12 +96,6 @@
 							"amount": 90,
 							"id": "casting:molten_energetic_alloy",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -145,12 +115,6 @@
 							"amount": 90,
 							"id": "casting:molten_zinc",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -175,12 +139,6 @@
 							"amount": 360,
 							"id": "casting:molten_redstone",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -205,12 +163,6 @@
 							"amount": 500,
 							"id": "casting:molten_glowstone",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -222,26 +174,20 @@
 				{
 					"ingredients": [
 						{
+							"type": "projecte:fluid",
 							"amount": 1000,
-							"id": "minecraft:water",
-							"type": "projecte:fluid"
+							"id": "minecraft:water"
 						},
 						{
+							"type": "projecte:fluid",
 							"amount": 1000,
-							"id": "minecraft:lava",
-							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
+							"id": "minecraft:lava"
 						}
 					],
 					"output": {
+						"type": "projecte:fluid",
 						"amount": 1000,
-						"id": "casting:molten_obsidian",
-						"type": "projecte:fluid"
+						"id": "casting:molten_obsidian"
 					}
 				},
 				{
@@ -255,12 +201,6 @@
 							"amount": 1000,
 							"id": "casting:molten_soul",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -280,12 +220,6 @@
 							"amount": 90,
 							"id": "casting:molten_nickel",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -305,12 +239,6 @@
 							"amount": 1000,
 							"id": "casting:chilled_water",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -335,12 +263,6 @@
 							"amount": 250,
 							"id": "casting:molten_glowstone",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -365,12 +287,6 @@
 							"amount": 500,
 							"id": "casting:molten_ender",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -390,12 +306,6 @@
 							"amount": 90,
 							"id": "casting:molten_tin",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -420,12 +330,6 @@
 							"amount": 1000,
 							"id": "casting:molten_obsidian",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -445,12 +349,6 @@
 							"amount": 90,
 							"id": "casting:molten_copper",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -470,12 +368,6 @@
 							"amount": 360,
 							"id": "casting:molten_gold",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -495,12 +387,6 @@
 							"amount": 90,
 							"id": "casting:molten_silver",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -525,12 +411,6 @@
 							"amount": 1000,
 							"id": "casting:molten_obsidian",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -550,12 +430,6 @@
 							"amount": 90,
 							"id": "casting:molten_iron",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
@@ -575,12 +449,6 @@
 							"amount": 90,
 							"id": "casting:molten_iron",
 							"type": "projecte:fluid"
-						},
-						{
-							"comment": "workstation",
-							"type": "projecte:item",
-							"id": "casting:mixer",
-							"count": 1
 						}
 					],
 					"output": {
