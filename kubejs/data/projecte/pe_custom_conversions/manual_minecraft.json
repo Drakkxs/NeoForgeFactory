@@ -1,7 +1,7 @@
 {
   "groups": {
     "map": {
-      "comment": "World Interaction Based Conversions",
+      "comment": "World Based Conversions - These are conversions that make sense in the world. They do not have workstations or machines involved.",
       "conversions": [
         {
           "ingredients": [
