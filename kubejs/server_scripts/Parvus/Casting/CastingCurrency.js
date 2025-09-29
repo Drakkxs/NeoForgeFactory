@@ -9,7 +9,6 @@
 (() => {
     let debug = false; // Want some debug?
 
-    const recipePath = "kubejs/data/casting/recipe/lorem_ipsum.json"; // Path to save the datapack recipes to
     const castingRecipeType = "casting:melting";
     const coinTag = "#lightmanscurrency:coins";
     const coinItems = Ingredient.of(coinTag).itemIds;
@@ -135,16 +134,13 @@
                     "id": transferrableCasting.get("output").asJsonObject.get("id").asString
                 }
             });
-            let path = recipePath.replace("lorem_ipsum", coinId.replace(":", "_"));
 
+            // Give the recipe a unique and safe ID
+            let safeID = datapacker.createSafeID(coinId);
+            let path = datapacker.exportDatapackRecipe(safeID, "casting:melting", meltingRecipe);
             // Remove the recipe from the current recipe set to prevent duplication
+            if (debug) console.log(`Exported datapack recipe to ${path}`);
             meltingRecipe.remove();
-            if (debug) console.log(`Removed in-memory recipe for melting ${coinId}`);
-            // Export as a datapack recipe only if it doesn't already exist
-            if (JsonIO.read(path)) return;
-
-            JsonIO.write(path, meltingRecipe.json);
-            if (debug) console.log(`Created Datapack recipe for melting ${coinId}`);
         })
     })
 })()

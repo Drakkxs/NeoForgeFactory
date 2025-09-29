@@ -20,7 +20,8 @@
 						"id": "minecraft:water_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -38,7 +39,8 @@
 						"id": "minecraft:lava_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -56,7 +58,8 @@
 						"id": "minecraft:milk_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -74,7 +77,8 @@
 						"id": "supplementaries:lumisene_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -92,7 +96,8 @@
 						"id": "alltheores:molten_aluminum_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -110,7 +115,8 @@
 						"id": "alltheores:molten_lead_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -128,7 +134,8 @@
 						"id": "alltheores:molten_nickel_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -146,7 +153,8 @@
 						"id": "alltheores:molten_osmium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -164,7 +172,8 @@
 						"id": "alltheores:molten_platinum_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -182,7 +191,8 @@
 						"id": "alltheores:molten_silver_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -200,7 +210,8 @@
 						"id": "alltheores:molten_tin_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -218,7 +229,8 @@
 						"id": "alltheores:molten_uranium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -236,7 +248,8 @@
 						"id": "alltheores:molten_zinc_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -254,7 +267,8 @@
 						"id": "alltheores:molten_iridium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -272,7 +286,8 @@
 						"id": "alltheores:molten_steel_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -290,7 +305,8 @@
 						"id": "alltheores:molten_invar_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -308,7 +324,8 @@
 						"id": "alltheores:molten_electrum_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -326,7 +343,8 @@
 						"id": "alltheores:molten_bronze_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -344,7 +362,8 @@
 						"id": "alltheores:molten_brass_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -362,7 +381,8 @@
 						"id": "alltheores:molten_enderium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -380,7 +400,8 @@
 						"id": "alltheores:molten_lumium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -398,7 +419,8 @@
 						"id": "alltheores:molten_signalum_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -416,7 +438,8 @@
 						"id": "alltheores:molten_constantan_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -434,7 +457,8 @@
 						"id": "alltheores:molten_copper_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -452,7 +476,8 @@
 						"id": "alltheores:molten_iron_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -470,7 +495,8 @@
 						"id": "alltheores:molten_gold_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -488,7 +514,8 @@
 						"id": "alltheores:molten_netherite_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -506,7 +533,8 @@
 						"id": "casting:molten_quartz_enriched_iron_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -524,7 +552,8 @@
 						"id": "casting:molten_black_quartz_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -542,7 +571,8 @@
 						"id": "casting:molten_iron_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -560,7 +590,8 @@
 						"id": "casting:molten_gold_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -578,7 +609,8 @@
 						"id": "casting:molten_coal_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -596,7 +628,8 @@
 						"id": "casting:molten_copper_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -614,7 +647,8 @@
 						"id": "casting:molten_lapis_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -632,7 +666,8 @@
 						"id": "casting:molten_redstone_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -650,7 +685,8 @@
 						"id": "casting:molten_quartz_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -668,7 +704,8 @@
 						"id": "casting:molten_obsidian_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -686,7 +723,8 @@
 						"id": "casting:molten_diamond_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -704,7 +742,8 @@
 						"id": "casting:molten_emerald_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -722,7 +761,8 @@
 						"id": "casting:molten_glass_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -740,7 +780,8 @@
 						"id": "casting:molten_debris_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -758,7 +799,8 @@
 						"id": "casting:molten_ender_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -776,7 +818,8 @@
 						"id": "casting:molten_glowstone_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -794,7 +837,8 @@
 						"id": "casting:molten_end_stone_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -812,7 +856,8 @@
 						"id": "casting:molten_soul_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -830,7 +875,8 @@
 						"id": "casting:molten_stone_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -848,7 +894,8 @@
 						"id": "casting:molten_blaze_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -866,7 +913,8 @@
 						"id": "casting:chilled_water_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -884,7 +932,8 @@
 						"id": "casting:iced_water_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -902,7 +951,8 @@
 						"id": "casting:super_coolant_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -920,7 +970,8 @@
 						"id": "casting:molten_black_brick_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -938,7 +989,8 @@
 						"id": "casting:molten_experience_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -956,7 +1008,8 @@
 						"id": "casting:molten_ruby_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -974,7 +1027,8 @@
 						"id": "casting:molten_sapphire_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -992,7 +1046,8 @@
 						"id": "casting:molten_peridot_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1010,7 +1065,8 @@
 						"id": "casting:molten_tin_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1028,7 +1084,8 @@
 						"id": "casting:molten_lead_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1046,7 +1103,8 @@
 						"id": "casting:molten_osmium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1064,7 +1122,8 @@
 						"id": "casting:molten_uranium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1082,7 +1141,8 @@
 						"id": "casting:molten_silver_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1100,7 +1160,8 @@
 						"id": "casting:molten_nickel_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1118,7 +1179,8 @@
 						"id": "casting:molten_zinc_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1136,7 +1198,8 @@
 						"id": "casting:molten_platinum_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1154,7 +1217,8 @@
 						"id": "casting:molten_aluminum_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1172,7 +1236,8 @@
 						"id": "casting:molten_iridium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1190,7 +1255,8 @@
 						"id": "casting:molten_silicon_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1208,7 +1274,8 @@
 						"id": "casting:molten_netherite_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1226,7 +1293,8 @@
 						"id": "casting:molten_bronze_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1244,7 +1312,8 @@
 						"id": "casting:molten_electrum_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1262,7 +1331,8 @@
 						"id": "casting:molten_steel_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1280,7 +1350,8 @@
 						"id": "casting:molten_invar_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1298,7 +1369,8 @@
 						"id": "casting:molten_signalum_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1316,7 +1388,8 @@
 						"id": "casting:molten_lumium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1334,7 +1407,8 @@
 						"id": "casting:molten_enderium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1352,7 +1426,8 @@
 						"id": "casting:molten_brass_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1370,7 +1445,8 @@
 						"id": "casting:molten_constantan_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1388,7 +1464,8 @@
 						"id": "casting:molten_end_steel_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1406,7 +1483,8 @@
 						"id": "casting:molten_soularium_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1424,7 +1502,8 @@
 						"id": "casting:molten_dark_steel_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1442,7 +1521,8 @@
 						"id": "casting:molten_pulsating_alloy_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1460,7 +1540,8 @@
 						"id": "casting:molten_conductive_alloy_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1478,7 +1559,8 @@
 						"id": "casting:molten_copper_alloy_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1496,7 +1578,8 @@
 						"id": "casting:molten_vibrant_alloy_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1514,7 +1597,8 @@
 						"id": "casting:molten_energetic_alloy_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1532,7 +1616,8 @@
 						"id": "casting:molten_redstone_alloy_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1550,7 +1635,8 @@
 						"id": "productivebees:honey_bucket",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				}
 			]
 		}

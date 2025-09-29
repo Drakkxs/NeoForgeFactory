@@ -16,7 +16,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:copper_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -30,7 +31,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:gold_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -44,7 +46,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:enderium_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -58,7 +61,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iridium_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -72,7 +76,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:enderium_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -86,7 +91,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iron_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -100,7 +106,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iron_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -114,7 +121,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:aluminum_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -128,7 +136,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:osmium_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -142,7 +151,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:aluminum_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -156,7 +166,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:sapphire"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -170,7 +181,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:nickel_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -184,7 +196,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iron_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -198,7 +211,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lead_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -212,7 +226,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:uranium_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -226,7 +241,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:electrum_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -240,7 +256,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:tin_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -254,7 +271,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:copper_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -268,7 +286,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:brass_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -282,7 +301,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:stone"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -296,7 +316,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:platinum_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -310,7 +331,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:nickel_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -324,7 +346,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:aluminum_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -338,7 +361,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iridium_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -352,7 +376,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:copper_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -371,7 +396,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "casting:multiblock_mixer"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -385,7 +411,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:constantan_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -399,7 +426,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:bronze_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -413,7 +441,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:electrum_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -427,7 +456,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:uranium_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -441,7 +471,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:platinum_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -455,7 +486,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lead_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -469,7 +501,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:gold_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -483,7 +516,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:constantan_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -497,7 +531,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:gold_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -511,7 +546,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:silver_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -525,7 +561,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:tin_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -539,7 +576,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:copper_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -553,7 +591,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:tin_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -567,7 +606,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:coal_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -581,7 +621,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:nickel_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -595,7 +636,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iridium_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -609,7 +651,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:signalum_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -623,7 +666,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:glowstone"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -637,7 +681,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iridium_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -656,7 +701,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "casting:multiblock_coolant_tank"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -670,7 +716,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:iron_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -684,7 +731,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:silver_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -703,7 +751,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "casting:multiblock_solidifier"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -722,7 +771,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "casting:multiblock_valve"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -736,7 +786,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:gold_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -750,7 +801,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lead_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -764,7 +816,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lumium_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -778,7 +831,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:electrum_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -792,7 +846,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:end_stone"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -806,7 +861,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:nickel_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -820,7 +876,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:uranium_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -834,7 +891,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:enderium_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -848,7 +906,8 @@
 						"count": 1,
 						"tag": "c:silicon",
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -862,7 +921,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:invar_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -876,7 +936,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:constantan_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -890,7 +951,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:invar_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -904,7 +966,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:constantan_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -918,7 +981,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:peridot_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -932,7 +996,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:invar_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -946,7 +1011,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:netherite_scrap"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -960,7 +1026,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:platinum_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -974,7 +1041,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:nickel_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -988,7 +1056,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:enderium_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1002,7 +1071,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:steel_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1016,7 +1086,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:brass_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1030,7 +1101,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:ruby"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1044,7 +1116,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lumium_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1058,7 +1131,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:steel_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1072,7 +1146,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:zinc_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1086,7 +1161,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:osmium_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1100,7 +1176,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:osmium_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1114,7 +1191,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:silver_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1128,7 +1206,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:brass_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1142,7 +1221,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:electrum_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1156,7 +1236,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lumium_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1170,7 +1251,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:steel_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1184,7 +1266,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:signalum_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1198,7 +1281,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:silver_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1212,7 +1296,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:blaze_powder"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1231,7 +1316,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:experience_bottle"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1245,7 +1331,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:platinum_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1259,7 +1346,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:diamond"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1273,7 +1361,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:invar_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1287,7 +1376,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iridium_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1301,7 +1391,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:platinum_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1315,7 +1406,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:electrum_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1329,7 +1421,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:constantan_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1343,7 +1436,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:platinum_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1357,7 +1451,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iridium_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1371,7 +1466,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:netherite_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1385,7 +1481,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "casting:black_brick"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1399,7 +1496,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:invar_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1413,7 +1511,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:diamond_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1427,7 +1526,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lead_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1441,7 +1541,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:invar_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1455,7 +1556,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:netherite_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1469,7 +1571,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:lapis_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1483,7 +1586,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:sapphire_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1497,7 +1601,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:signalum_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1511,7 +1616,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:silver_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1525,7 +1631,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:glowstone_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1539,7 +1646,8 @@
 						"count": 1,
 						"tag": "c:storage_blocks/redstone",
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1553,7 +1661,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:tin_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1567,7 +1676,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:bronze_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1581,7 +1691,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lumium_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1595,7 +1706,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:emerald_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1609,7 +1721,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:signalum_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1623,7 +1736,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:diamond_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1637,7 +1751,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:glass"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1651,7 +1766,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:netherite_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1665,7 +1781,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:electrum_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1679,7 +1796,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:zinc_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1693,7 +1811,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lead_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1707,7 +1826,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:invar_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1721,7 +1841,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:blaze_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1735,7 +1856,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:peridot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1749,7 +1871,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:gold_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1763,7 +1886,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:sapphire_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1777,7 +1901,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:constantan_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1791,7 +1916,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:zinc_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1805,7 +1931,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:osmium_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1819,7 +1946,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:silver_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1833,7 +1961,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:signalum_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1847,7 +1976,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:bronze_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1861,7 +1991,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:aluminum_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1875,7 +2006,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:osmium_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1889,7 +2021,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:tin_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1903,7 +2036,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:nickel_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1917,7 +2051,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:steel_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1931,7 +2066,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "casting:black_bricks"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1945,7 +2081,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:netherite_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1959,7 +2096,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:netherite_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1973,7 +2111,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:steel_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -1987,7 +2126,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:nickel_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2001,7 +2141,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:tin_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2015,7 +2156,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:enderium_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2029,7 +2171,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:brass_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2043,7 +2186,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iridium_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2057,7 +2201,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:diamond_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2071,7 +2216,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:uranium_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2085,7 +2231,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:enderium_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2099,7 +2246,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:platinum_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2113,7 +2261,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lead_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2127,7 +2276,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:emerald"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2141,7 +2291,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:aluminum_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2155,7 +2306,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:zinc_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2169,7 +2321,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:diamond_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2183,7 +2336,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:netherite_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2197,7 +2351,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lead_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2211,7 +2366,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:diamond_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2225,7 +2381,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:copper_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2239,7 +2396,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:gold_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2253,7 +2411,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:constantan_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2267,7 +2426,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:quartz_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2281,7 +2441,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:zinc_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2295,7 +2456,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:silver_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2309,7 +2471,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:brass_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2323,7 +2486,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:uranium_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2337,7 +2501,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:gold_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2351,7 +2516,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:tin_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2365,7 +2531,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:brass_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2379,7 +2546,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:ruby_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2393,7 +2561,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lumium_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2407,7 +2576,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:zinc_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2421,7 +2591,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lumium_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2435,7 +2606,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:aluminum_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2449,7 +2621,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:peridot_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2463,7 +2636,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:bronze_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2477,7 +2651,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:electrum_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2491,7 +2666,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:copper_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2505,7 +2681,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:signalum_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2519,7 +2696,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:signalum_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2533,7 +2711,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:bronze_plate"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2547,7 +2726,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:iron_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2561,7 +2741,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:iron_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2575,7 +2756,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:steel_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2589,7 +2771,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:iron_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2603,7 +2786,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:steel_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2617,7 +2801,8 @@
 						"count": 1,
 						"tag": "c:dusts/redstone",
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2631,7 +2816,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:aluminum_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2645,7 +2831,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:ender_pearl"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2659,7 +2846,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:bronze_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2673,7 +2861,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:copper_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2687,7 +2876,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:uranium_ingot"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2701,7 +2891,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:osmium_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2715,7 +2906,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:lumium_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2729,7 +2921,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:uranium_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2743,7 +2936,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:zinc_gear"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2757,7 +2951,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:bronze_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2771,7 +2966,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:coal"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2790,7 +2986,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "casting:multiblock_controller"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2804,7 +3001,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:osmium_dust"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2818,7 +3016,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:obsidian"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2832,7 +3031,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:enderium_nugget"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2846,7 +3046,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:lapis_lazuli"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2860,7 +3061,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:ruby_block"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2874,7 +3076,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "minecraft:quartz"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2888,7 +3091,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "alltheores:brass_rod"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2907,7 +3111,8 @@
 						"count": 1,
 						"type": "projecte:item",
 						"id": "casting:multiblock_fuel_tank"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -2921,7 +3126,8 @@
 						"count": 1,
 						"tag": "minecraft:soul_fire_base_blocks",
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				}
 			]
 		}

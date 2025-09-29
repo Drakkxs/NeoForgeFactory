@@ -16,7 +16,8 @@
 						"id": "casting:feather_falling",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -30,7 +31,8 @@
 						"id": "casting:soulbound",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -44,7 +46,8 @@
 						"id": "casting:auto_smelt",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -58,7 +61,8 @@
 						"id": "casting:speed",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -72,7 +76,8 @@
 						"id": "casting:water_walker",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -86,7 +91,8 @@
 						"id": "casting:jets",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -105,7 +111,8 @@
 						"id": "casting:torch_placing",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -124,7 +131,8 @@
 						"id": "casting:ignite",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -138,7 +146,8 @@
 						"id": "casting:teleporting",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -152,7 +161,8 @@
 						"id": "casting:excavation",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -166,7 +176,8 @@
 						"id": "casting:unbreaking",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -180,7 +191,8 @@
 						"id": "casting:protection",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -199,7 +211,8 @@
 						"id": "casting:looting",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -213,7 +226,8 @@
 						"id": "casting:step_assist",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -227,7 +241,8 @@
 						"id": "casting:fortune",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -241,7 +256,8 @@
 						"id": "casting:flight",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -255,7 +271,8 @@
 						"id": "casting:equipment_level",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -269,7 +286,8 @@
 						"id": "casting:efficiency",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -283,7 +301,8 @@
 						"id": "casting:lava_walker",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -297,7 +316,8 @@
 						"id": "casting:sharpness",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -311,7 +331,8 @@
 						"id": "casting:knockback",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -330,7 +351,8 @@
 						"id": "casting:magnet",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -344,7 +366,8 @@
 						"id": "casting:silk_touch",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -358,7 +381,8 @@
 						"id": "casting:night_vision",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -372,7 +396,8 @@
 						"id": "casting:water_breathing",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -386,7 +411,8 @@
 						"id": "casting:beheading",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -400,7 +426,8 @@
 						"id": "casting:repairing",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				},
 				{
 					"ingredients": [
@@ -419,7 +446,8 @@
 						"id": "casting:lifesteal",
 						"count": 1,
 						"type": "projecte:item"
-					}
+					},
+					"count": 1
 				}
 			]
 		}

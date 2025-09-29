@@ -21,7 +21,8 @@
 						"amount": 270,
 						"id": "casting:molten_invar",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 270
 				},
 				{
 					"ingredients": [
@@ -40,7 +41,8 @@
 						"amount": 360,
 						"id": "casting:molten_quartz_enriched_iron",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 360
 				},
 				{
 					"ingredients": [
@@ -64,7 +66,8 @@
 						"amount": 90,
 						"id": "casting:molten_conductive_alloy",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -83,7 +86,8 @@
 						"amount": 90,
 						"id": "casting:molten_redstone_alloy",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -102,7 +106,8 @@
 						"amount": 90,
 						"id": "casting:molten_vibrant_alloy",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -121,7 +126,8 @@
 						"amount": 360,
 						"id": "casting:molten_brass",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 360
 				},
 				{
 					"ingredients": [
@@ -145,7 +151,8 @@
 						"amount": 360,
 						"id": "casting:molten_signalum",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 360
 				},
 				{
 					"ingredients": [
@@ -169,26 +176,28 @@
 						"amount": 360,
 						"id": "casting:molten_lumium",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 360
 				},
 				{
 					"ingredients": [
 						{
-							"type": "projecte:fluid",
 							"amount": 1000,
-							"id": "minecraft:water"
+							"id": "minecraft:water",
+							"type": "projecte:fluid"
 						},
 						{
-							"type": "projecte:fluid",
 							"amount": 1000,
-							"id": "minecraft:lava"
+							"id": "minecraft:lava",
+							"type": "projecte:fluid"
 						}
 					],
 					"output": {
-						"type": "projecte:fluid",
 						"amount": 1000,
-						"id": "casting:molten_obsidian"
-					}
+						"id": "casting:molten_obsidian",
+						"type": "projecte:fluid"
+					},
+					"count": 1000
 				},
 				{
 					"ingredients": [
@@ -207,7 +216,8 @@
 						"amount": 90,
 						"id": "casting:molten_soularium",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -226,7 +236,8 @@
 						"amount": 180,
 						"id": "casting:molten_constantan",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 180
 				},
 				{
 					"ingredients": [
@@ -245,7 +256,8 @@
 						"amount": 2000,
 						"id": "casting:super_coolant",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 2000
 				},
 				{
 					"ingredients": [
@@ -269,7 +281,8 @@
 						"amount": 90,
 						"id": "casting:molten_energetic_alloy",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -293,7 +306,8 @@
 						"amount": 360,
 						"id": "casting:molten_enderium",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 360
 				},
 				{
 					"ingredients": [
@@ -312,7 +326,8 @@
 						"amount": 360,
 						"id": "casting:molten_bronze",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 360
 				},
 				{
 					"ingredients": [
@@ -336,7 +351,8 @@
 						"amount": 90,
 						"id": "casting:molten_end_steel",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -355,7 +371,8 @@
 						"amount": 90,
 						"id": "casting:molten_copper_alloy",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -374,7 +391,8 @@
 						"amount": 90,
 						"id": "casting:molten_netherite",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -393,7 +411,8 @@
 						"amount": 180,
 						"id": "casting:molten_electrum",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 180
 				},
 				{
 					"ingredients": [
@@ -417,7 +436,8 @@
 						"amount": 90,
 						"id": "casting:molten_dark_steel",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -436,7 +456,8 @@
 						"amount": 90,
 						"id": "casting:molten_steel",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				},
 				{
 					"ingredients": [
@@ -455,7 +476,8 @@
 						"amount": 90,
 						"id": "casting:molten_pulsating_alloy",
 						"type": "projecte:fluid"
-					}
+					},
+					"count": 90
 				}
 			]
 		}
