@@ -53,8 +53,7 @@
             "minecraft:enderman",
             "minecraft:slime",
             "minecraft:witch"
-        ],
-        "spawntype": "natural",
+        ],  
         "result": "deny"
     }
 ]

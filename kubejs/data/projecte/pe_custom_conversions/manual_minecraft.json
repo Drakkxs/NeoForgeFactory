@@ -1,7 +1,7 @@
 {
   "groups": {
     "map": {
-      "comment": "World Based Conversions - These are conversions that make sense in the world. They do not have workstations or machines involved.",
+      "comment": "In the beginning, there was the world. Where natural processes created the basic materials needed to progress. These conversions represent those natural processes.",
       "conversions": [
         {
           "ingredients": [
@@ -12,7 +12,7 @@
             }
           ],
           "output": {
-            "comment": "sand from gravel",
+            "comment": "Erroded by wind and water, sand is formed from the tiny particles of rock and mineral that make up the earth's crust.",
             "type": "projecte:item",
             "id": "minecraft:sand"
           },
@@ -27,7 +27,7 @@
             }
           ],
           "output": {
-            "comment": "gravel from cobblestone",
+            "comment": "Gravel is formed from the erosion of cobblestone by natural processes.",
             "type": "projecte:item",
             "id": "minecraft:gravel"
           },
@@ -47,16 +47,41 @@
             }
           ],
           "output": {
-            "comment": "cobblestone from lava and water",
+            "comment": "Cobblestone is formed when lava and water meet, cooling and solidifying the molten rock.",
             "type": "projecte:item",
             "id": "minecraft:cobblestone"
           },
           "count": 1
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:sands",
+              "count": 1
+            },
+            {
+              "type": "projecte:fluid",
+              "tag": "c:lava",
+              "amount": 1000
+            },
+            {
+              "type": "projecte:fluid",
+              "tag": "c:water",
+              "amount": 1000
+            }
+          ],
+          "output": {
+            "comment": "Dead bushes wash up on shorelines, they fill the void between land and sea. They are a reminder of the life that once was, and the life that will be again.",
+            "type": "projecte:item",
+            "id": "minecraft:dead_bush"
+          },
+          "count": 2
         }
       ]
     },
     "water": {
-      "comment": "Water Based Conversions",
+      "comment": "Aquatic Conversions - These conversions involve water as a key component, representing processes that occur in aquatic environments.",
       "conversions": [
         {
           "ingredients": [
@@ -73,28 +98,7 @@
             }
           ],
           "output": {
-            "comment": "clay from sand and water",
-            "type": "projecte:item",
-            "id": "minecraft:clay_ball"
-          },
-          "count": 4
-        },
-        {
-          "ingredients": [
-            {
-              "type": "projecte:item",
-              "tag": "c:sands",
-              "count": 1
-            },
-            {
-              "comment": "workstation",
-              "type": "projecte:fluid",
-              "tag": "c:water",
-              "amount": 1000
-            }
-          ],
-          "output": {
-            "comment": "clay from sand and water",
+            "comment": "Sand is soaked in water to create clay",
             "type": "projecte:item",
             "id": "minecraft:clay_ball"
           },
@@ -103,7 +107,7 @@
       ]
     },
     "grindstone": {
-      "comment": "Grindstone Based Conversions",
+      "comment": "The most basic reperensentation of crushing. A grindstone is a simple tool that can be used to break down materials into their more basic forms.",
       "conversions": [
         {
           "ingredients": [
@@ -120,7 +124,7 @@
             }
           ],
           "output": {
-            "comment": "wood dust from wooden rod and grindstone",
+            "comment": "Sticks are grinded down to form dust",
             "type": "projecte:item",
             "tag": "c:dusts/wood"
           },
@@ -130,13 +134,16 @@
     }
   },
   "values": {
+    "comment": "The beginning of all things, the basic building blocks of life and matter. These are the fundamental definitions that make up the world.",
     "before": [
       {
+        "comment": "Abundantly neccessary. Flow, fill, and grow with it.",
         "type": "projecte:fluid",
         "emc_value": 1,
         "id": "minecraft:water"
       },
       {
+        "comment": "Liquid fire. Hot, molten rock. Can be found deep underground or in volcanic regions. All things that are born of fire, return to it.",
         "type": "projecte:fluid",
         "emc_value": 1,
         "id": "minecraft:lava"

@@ -100,7 +100,8 @@
             }]
         ]);
 
-        event.forEachRecipe({ or: [{ type: "opolisutilities:cloche" }] }, recipe => {
+        // @ts-expect-error
+        event.forEachRecipe({ or: [{ type: "opolisutilities:cloche" }, {type: "cloche:cloche"}] }, recipe => {
             if (debug) {
                 console.log(`Found Cloche recipe: ${recipe.id}`);
                 console.log(JsonUtils.toPrettyString(recipe.json));
