@@ -12,6 +12,7 @@
             }
           ],
           "output": {
+            "comment": "sand from gravel",
             "type": "projecte:item",
             "id": "minecraft:sand"
           },
@@ -26,6 +27,7 @@
             }
           ],
           "output": {
+            "comment": "gravel from cobblestone",
             "type": "projecte:item",
             "id": "minecraft:gravel"
           },
@@ -45,6 +47,7 @@
             }
           ],
           "output": {
+            "comment": "cobblestone from lava and water",
             "type": "projecte:item",
             "id": "minecraft:cobblestone"
           },
@@ -70,6 +73,7 @@
             }
           ],
           "output": {
+            "comment": "clay from sand and water",
             "type": "projecte:item",
             "id": "minecraft:clay_ball"
           },
@@ -90,6 +94,7 @@
             }
           ],
           "output": {
+            "comment": "clay from sand and water",
             "type": "projecte:item",
             "id": "minecraft:clay_ball"
           },
@@ -115,6 +120,7 @@
             }
           ],
           "output": {
+            "comment": "wood dust from wooden rod and grindstone",
             "type": "projecte:item",
             "tag": "c:dusts/wood"
           },
