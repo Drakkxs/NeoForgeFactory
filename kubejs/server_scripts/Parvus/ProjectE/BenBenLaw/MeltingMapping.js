@@ -243,7 +243,7 @@
             });
 
             let conversion = {
-                "ingredients": ingredients.concat(workstation)
+                "ingredients": ingredients
                     // Filter out invalid ingredients
                     .filter(i => (i.id || i.tag) || (i.type == "projecte:fake")),
                 "output": output
