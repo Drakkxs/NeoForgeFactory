@@ -3,8 +3,10 @@
 // @ts-check
 // Modify tooltips of ProjectE EMC to be more immersive and informative
 
+
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
+
 
     ItemEvents.modifyTooltips(event => {
         event.modifyAll(tooltip => {
@@ -42,9 +44,12 @@
                 if (!nestline.text || !nestline.text.asString.length) return;
                 nestline["emc"] = Number(`${NBT.fromTag(nestline.text)}`.replace(/[^0-9.]/g, ""))
                 if (!Number.isFinite(nestline.emc)) return;
-                tip.putString("text", `${(Math.round(nestline.emc / 100 * 100) / 100).toFixed(2)}`)
-            })
+                nestline["num"] = (Math.round(nestline.emc / 100 * 100) / 100)
+                nestline["formatedNum"] = nestline.num.toFixed(2);
 
+                tip.putString("text", `${nestline.formatedNum.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`)
+            })
+            
             event.lines.set(index, Component.ofTag(nbtLine))
         });
 
