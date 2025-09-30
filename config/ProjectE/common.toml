@@ -1,5 +1,5 @@
 #Enable more verbose debug logging.
-debugLogging = false
+debugLogging = true
 
 #Settings for configuring crafting requirements of specific ProjectE recipes.
 [crafting]
