@@ -7,8 +7,14 @@
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
 
-
-    
+    let $NumberFormat = Java.loadClass("java.text.NumberFormat")
+    // @ts-expect-error Not in global list of classes
+    let $Util = Java.loadClass("net.minecraft.Util")
+    let PROJECTE_FORMATTER = $Util.make($NumberFormat.getInstance(), formatter => formatter.setMaximumFractionDigits(1))
+    // Another way to format values. Lang file has this covered for now.
+    // let CURRENCY_FORMATTER = $NumberFormat.getNumberInstance()
+    let NUMBER_FORMATTER = $NumberFormat.getNumberInstance()
+    NUMBER_FORMATTER.setMinimumFractionDigits(2)
 
     ItemEvents.modifyTooltips(event => {
         event.modifyAll(tooltip => {
@@ -41,15 +47,7 @@
             // Locate the relevant compoundTag. Stop at the first find.
             nestTool.forEach(tip => {
                 if (!(tip instanceof Java.loadClass("net.minecraft.nbt.CompoundTag"))) return;
-                let nestline = {}
-                nestline["text"] = tip.get("text")
-                if (!nestline.text || !nestline.text.asString.length) return;
-                nestline["emc"] = Number(`${NBT.fromTag(nestline.text)}`.replace(/[^0-9.]/g, ""))
-                if (!Number.isFinite(nestline.emc)) return;
-                nestline["num"] = (Math.round(nestline.emc / 100 * 100) / 100)
-                nestline["formatedNum"] = nestline.num.toFixed(2);
-
-                tip.putString("text", `${nestline.formatedNum.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`)
+                tip.putString("text", NUMBER_FORMATTER.format((PROJECTE_FORMATTER.parse(tip.get("text")) / 100)))
             })
 
             event.lines.set(index, Component.ofTag(nbtLine))

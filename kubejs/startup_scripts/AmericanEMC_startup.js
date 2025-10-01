@@ -6,17 +6,48 @@
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
 
-    global.jadeCallBack = function(tooltip, accessor) {
-        console.log("Accessor", accessor)
-        console.log("Hit Result", accessor.hitResult)
+    let $Integer = Java.loadClass("java.lang.Integer")
+    // @ts-expect-error Not in global list of classes
+    let $ElementHelper = Java.loadClass("snownee.jade.impl.ui.ElementHelper")
+    let $NumberFormat = Java.loadClass("java.text.NumberFormat")
+    // @ts-expect-error Not in global list of classes
+    let $Util = Java.loadClass("net.minecraft.Util")
+    // @ts-expect-error Not in global list of classes
+    let $IElement = Java.loadClass("snownee.jade.api.ui.IElement")
+    let $ListType = Java.loadClass("java.util.ArrayList")
+
+    let PROJECTE_FORMATTER = $Util.make($NumberFormat.getInstance(), formatter => formatter.setMaximumFractionDigits(1))
+    // Another way to format values. Lang file has this covered for now.
+    // let CURRENCY_FORMATTER = $NumberFormat.getNumberInstance()
+    let NUMBER_FORMATTER = $NumberFormat.getNumberInstance()
+    NUMBER_FORMATTER.setMinimumFractionDigits(2)
+
+    global.jadeCallBack = function (tooltip, accessor) {
         if (!accessor.hitResult) return
-        let item = accessor.getPickedResult()
-        console.log(item)
-        let lines = tooltip.getTooltip().get("projecte:emc_provider")
-        for (let line of lines) {
-            console.log("Line", line)
-            console.log("Message", line.getMessage())
-        }
+
+        tooltip.getTooltip()["replace(net.minecraft.resources.ResourceLocation,java.util.function.UnaryOperator)"]("projecte:emc_provider", (/** @type {$ListType<$ListType<$IElement>>}*/ listOfLines) => {
+            // @ts-expect-error Symbol iterator is not neccesary
+            for (let lines of listOfLines) {
+                let idx = lines.findIndex((line) => line.text?.contents?.key == "emc.projecte.tooltip")
+                if (idx == -1) return listOfLines
+
+                let text = lines.get(idx).text
+                let textStyle = text.getStyle()
+
+                let valueComponent = text.contents.args[0]
+                let valueStyle = valueComponent.getStyle()
+                let valueText = valueComponent.getContents().text()
+
+                let newValue = NUMBER_FORMATTER.format((PROJECTE_FORMATTER.parse(valueText) / 100))
+                let newValueComponent = Text.of(newValue)["withStyle(net.minecraft.network.chat.Style)"](valueStyle)
+
+                let newTextComponent = Text.translate("emc.projecte.tooltip", newValueComponent)["withStyle(net.minecraft.network.chat.Style)"](textStyle)
+
+                lines.set(idx, $ElementHelper.INSTANCE.text(newTextComponent))
+            }
+            return listOfLines
+        })
+
     };
 
     StartupEvents.postInit(event => {
