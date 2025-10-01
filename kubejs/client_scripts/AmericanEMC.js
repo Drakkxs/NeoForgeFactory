@@ -8,6 +8,8 @@
 (() => {
 
 
+    
+
     ItemEvents.modifyTooltips(event => {
         event.modifyAll(tooltip => {
             tooltip.dynamic("kubejs_emc_tooltip");
@@ -49,7 +51,7 @@
 
                 tip.putString("text", `${nestline.formatedNum.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`)
             })
-            
+
             event.lines.set(index, Component.ofTag(nbtLine))
         });
 
