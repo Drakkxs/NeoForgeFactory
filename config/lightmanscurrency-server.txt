@@ -296,7 +296,7 @@
 	#Whether players will receive a personal notification whenever their bank account collects interest.
 	#Regardless of this value, the bank accounts logs will always display the interest interaction.
 	#Default: true
-	interestNotification=false
+	interestNotification=true
 	
 	#The number of minecraft ticks that will pass before interest is applied.
 	#Helpful Notes:
