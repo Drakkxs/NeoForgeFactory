@@ -1,16 +1,13 @@
 // priority: -20
 // requires: projecte
-// requires: cloche
-// requires: opolisutilities
+// requires: powah
 // @ts-check
-// Automatically map Cloche recipes to ProjectE conversions.
-
+// Automatically map Energizing recipes to ProjectE conversions.
 
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
-    let debug = false; // Want some debug?
-    let filePath = 'kubejs/data/projecte/pe_custom_conversions/generated_cloche.json';
-    
+    let debug = true; // Want some debug?
+    let filePath = 'kubejs/data/projecte/pe_custom_conversions/generated_energizing.json';
 
     /**
      * Transposes a key in an object.
@@ -52,58 +49,50 @@
         return JsonUtils.fromString(JsonUtils.toString(obj)).asJsonObject;
     }
 
-    /**
-     * Flattens a JsonArray by one level.
-     * @param {import("com.google.gson.JsonArray").$JsonArray} jsonArray
-     * @returns
-     */
-    function flattenArray(jsonArray) {
-        let flat = [];
-        jsonArray.forEach(e => {
-            let json = JsonUtils.of(e);
-            if (json && json.jsonNull) return;
-            if (e && e.isJsonArray()) {
-                flat = flat.concat(e.asJsonArray.asList().toArray());
-            } else if (e != null) {
-                flat.push(e);
-            }
-        });
-        if (debug) console.log(`Flattened Array: ${flat}`)
-        jsonArray = JsonUtils.of(flat).asJsonArray;
-        return jsonArray;
-    }
-
     ServerEvents.recipes(event => {
-        let name = "cloche";
-        let comment = "Cloche recipes automatically mapped from Botany Pots recipes.";
+        let name = "energizing";
+        let comment = "Powah Energizing recipes mapped to ProjectE conversions.";
         let conversions = [];
 
         if (JsonIO.read(filePath)) {
             if (debug) console.log(`File ${filePath} already exists. Skipping generation.`);
             return;
-        };
+        }
 
         // Recipes can include their workstation to help truly identify the cost of the conversion
         // This is to ensure cheap conversions aren't favored from a workstation that is hard to make.
         let workstationMap = new Map([
-            ["cloche:cloche", {
+            ["powah:energizing", {
                 "comment": "workstation",
                 "type": "projecte:item",
-                "id": "cloche:cloche",
-                "count": 1
-            }],
-            ["opolisutilities:cloche", {
-                "comment": "workstation",
-                "type": "projecte:item",
-                "id": "opolisutilities:cloche",
+                // The most cruical part is the energizing orb.
+                "id": "powah:energizing_orb",
                 "count": 1
             }]
         ]);
 
-        // @ts-expect-error
-        event.forEachRecipe({ or: [{ type: "opolisutilities:cloche" }, {type: "cloche:cloche"}] }, recipe => {
+        let $NumberFormat = Java.loadClass("java.text.NumberFormat")
+        let NUMBER_FORMATTER = $NumberFormat.getNumberInstance()
+        /**
+         * Creates a fake ingredient to repersent energy requirements
+         * @param {number} energy
+         */
+        function energyToEMC(energy) {
+            return JsonUtils.of({
+                "namespace": "flux",
+                "description": "energy",
+                "type": "projecte:fake",
+                "amount": Math.floor(energy)
+            }).asJsonObject
+        }
+
+        event.forEachRecipe({
+            or: [
+                { type: "powah:energizing" }
+            ]
+        }, recipe => {
             if (debug) {
-                console.log(`Found Cloche recipe: ${recipe.id}`);
+                console.log(`Found Powah Energizing recipe: ${recipe.id}`);
                 console.log(JsonUtils.toPrettyString(recipe.json));
             }
             // Copy to avoid mutating the original recipe
@@ -117,20 +106,53 @@
             let rawIngredients = JsonUtils.of([].concat(
                 json.get("ingredient"), json.get("ingredients"),
                 json.get("input"), json.get("inputs"),
-                json.get("fluid"), json.get("fluids"),
-                json.get("soil"), json.get("catalyst"),
-                json.get("seed")
+                json.get("fluid"), json.get("fluids")
             ));
 
             let rawResults = JsonUtils.of([].concat(
                 json.get("result"), json.get("results"),
-                json.get("output"), json.get("outputs"),
-                json.get("mainOutput"), json.get("shears_result")
+                json.get("output"), json.get("outputs")
             ));
 
             // Default to empty arrays if null
             let rawInputs = JsonUtils.of([]).asJsonArray;
             let rawFluids = JsonUtils.of([]).asJsonArray;
+
+            let rawEnergy = JsonUtils.of([].concat(
+                json.get("energy")
+            ))
+
+            /**
+             * Flattens a JsonArray by one level.
+             * @param {import("com.google.gson.JsonArray").$JsonArray} jsonArray
+             * @returns
+             */
+            function flattenArray(jsonArray) {
+                let flat = [];
+                jsonArray.forEach(e => {
+                    let json = JsonUtils.of(e);
+                    if (json && json.jsonNull) return;
+                    if (e && e.isJsonArray()) {
+                        flat = flat.concat(e.asJsonArray.asList().toArray());
+                    } else if (e != null) {
+                        flat.push(e);
+                    }
+                });
+                if (debug) console.log(`Flattened Array: ${flat}`)
+                jsonArray = JsonUtils.of(flat).asJsonArray;
+                return jsonArray;
+            }
+
+            // Resolve required energy
+            if (!rawEnergy.isJsonArray()) return;
+            let energyArray = flattenArray(rawEnergy.asJsonArray);
+            energyArray.forEach(raw => {
+                let energy = NUMBER_FORMATTER.parse(raw.asString)
+                if (energy < 0) return;
+
+                let energyObject = energyToEMC(energy)
+                ingredients.push(JsonUtils.toObject(energyObject))
+            })
 
             // Resolve ingredients into item and fluid lists
             if (!rawIngredients.isJsonArray()) return;
@@ -185,7 +207,6 @@
             if (!rawResults.isJsonArray()) return;
             let resultsArray = flattenArray(rawResults.asJsonArray);
             resultsArray.forEach(result => {
-                if (debug) console.log(`Processing result: ${result}, isJsonObject: ${result.isJsonObject()}`);
                 if (!result.isJsonObject()) return;
                 let resultObj = result.asJsonObject;
                 let isfluid = resultObj.get("amount")
@@ -213,18 +234,6 @@
                 output.push(JsonUtils.toObject(resultObj));
             });
 
-            // If the output is the same as the input, take it out.
-            // This prevents infinite loops and useless conversions.
-            output = output.filter(o => {
-                if (debug) console.log(`Checking output ${JsonUtils.toString(o)} against inputs.`)
-                let outIng = Ingredient.of(o.id || o.tag);
-                let inIngs = ingredients.map(i => Ingredient.of(i.id || i.tag));
-                // If either aren't ingredients, skip
-                if (!outIng || !inIngs.length) return true;
-                if (debug) console.log(`Output as Ingredient: ${JsonUtils.toString(outIng)}, Inputs as Ingredients: ${JsonUtils.toString(inIngs)}`);
-                return inIngs.some(i => !(Object.is(outIng, i)));
-            });
-
             let conversion = {
                 "ingredients": ingredients.map(i => JsonUtils.toObject(transposeKey(JsonUtils.toString(i), "count", "amount")))
                     // Filter out invalid ingredients
@@ -232,16 +241,11 @@
                 "output": output
                     // Filter out chanced outputs. Allow those without a chance tag.
                     .filter(o => (!o.chance || o.chance >= 1) && (o.id || o.tag))
+                    .find(o => o.id || o.tag)
             };
 
-            // Skip if no valid output
-            if (conversion.output.length == 0) {
-                if (debug) console.log("No valid output found, skipping conversion.");
-                return;
-            }
-
             if (
-                !conversion.ingredients.length || !conversion.output.length
+                (!conversion.ingredients || !conversion.ingredients.length) || (!conversion.output || !Object.keys(conversion.output).length)
             ) {
                 throw new Error(`Invalid conversion generated from recipe: ${JsonUtils.toPrettyString(json)} Converted: ${JsonUtils.toPrettyString(conversion)}`);
             }
@@ -249,17 +253,11 @@
             if (debug) {
                 console.log(`Conversion: ${JsonUtils.toPrettyString(conversion)}`); // Debug output
             }
-
-            // Add output as a single conversion and avoid duplicates
-            for (let output of (new Set(conversion.output))) {
-                conversions.push({
-                    "ingredients": conversion.ingredients,
-                    "output": output,
-                    // Add the count the way ProjectE expects it.
-                    // Works for both items and fluids (per mb)
-                    "count": output.count || output.amount || 1
-                });
-            }
+            conversions.push(Object.assign(conversion, {
+                // Add the count the way ProjectE expects it.
+                // Works for both items and fluids (per mb)
+                "count": conversion.output.count || conversion.output.amount || 1
+            }));
 
         });
 

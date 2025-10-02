@@ -7,7 +7,7 @@
 (() => {
     let debug = false; // Want some debug?
     let filePath = 'kubejs/data/projecte/pe_custom_conversions/generated_buckets.json';
-    
+
 
     /**
      * Transposes a key in an object.
@@ -228,7 +228,7 @@
             let conversion = {
                 "ingredients": ingredients.map(i => JsonUtils.toObject(transposeKey(JsonUtils.toString(i), "count", "amount")))
                     // Filter out invalid ingredients
-                    .filter(i => (i.id || i.tag) || (i.type == "projecte:fake")),
+                    .filter(i => (i.id || i.tag) || ((i.type == "projecte:fake") && (i.description))),
                 "output": output
                     // Filter out chanced outputs. Allow those without a chance tag.
                     .filter(o => (!o.chance || o.chance >= 1) && (o.id || o.tag))

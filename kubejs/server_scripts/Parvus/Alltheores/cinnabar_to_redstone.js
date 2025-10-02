@@ -1,5 +1,6 @@
 // priority: 0
 // requires: alltheores
+// ignored: true
 // @ts-check
 // Allow crafting upwards from BioFuel to Biomass Pallets.
 

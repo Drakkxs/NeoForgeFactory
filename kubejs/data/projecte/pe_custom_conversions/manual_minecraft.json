@@ -72,7 +72,7 @@
             }
           ],
           "output": {
-            "comment": "Dead bushes wash up on shorelines, they fill the void between land and sea. They are a reminder of the life that once was, and the life that will be again.",
+            "comment": "Life.",
             "type": "projecte:item",
             "id": "minecraft:dead_bush"
           },
@@ -108,27 +108,36 @@
     },
     "grindstone": {
       "comment": "The most basic reperensentation of crushing. A grindstone is a simple tool that can be used to break down materials into their more basic forms.",
+      "conversions": []
+    },
+    "smithing_table": {
+      "comment": "A workshop within a block; capable of upgrading hellish materials.",
       "conversions": [
         {
           "ingredients": [
             {
               "type": "projecte:item",
-              "tag": "c:rods/wooden",
-              "amount": 1
+              "id": "minecraft:copper_ingot",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:gold_ingot",
+              "amount": 2
             },
             {
               "comment": "workstation",
               "type": "projecte:item",
-              "id": "minecraft:grindstone",
+              "id": "minecraft:smithing_table",
               "amount": 1
             }
           ],
           "output": {
             "comment": "Sticks are grinded down to form dust",
             "type": "projecte:item",
-            "tag": "c:dusts/wood"
+            "id": "minecraft:redstone"
           },
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -144,7 +153,7 @@
             }
           ],
           "output": {
-            "comment": "((100/12%)*1) - Through hammer, forge, and labor story is written into steel.",
+            "comment": "((100/12%)*1) - Through hammer, forge, and labor story is written into steel. Its value transitions into wisdom.",
             "type": "projecte:item",
             "id": "minecraft:chipped_anvil"
           },
@@ -159,11 +168,30 @@
             }
           ],
           "output": {
-            "comment": "((100/12%)*1) - The spines of the book begin to reach their end.",
+            "comment": "((100/12%)*1) - The spines of the book begin to reach their end. The tome of knowledge is hardly valued for its luster.",
             "type": "projecte:item",
             "id": "minecraft:damaged_anvil"
           },
           "count": 8
+        }
+      ]
+    },
+    "dead_bush": {
+      "comment": "Dead bushes wash up on shorelines, they fill the void between land and sea. They are a reminder of the life that once was, and the life that will be again. These conversions deal with plantlife, and do not have workstations. Life is largely unexplained, and not predictable.",
+      "conversions": [
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:dead_bush",
+              "amount": 9
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:oak_log"
+          },
+          "count": 4
         }
       ]
     }
@@ -182,6 +210,13 @@
         "type": "projecte:fluid",
         "emc_value": 1,
         "id": "minecraft:lava"
+      },
+      {
+        "comment": "Energy, flux. A abstract repersentation of it.",
+        "namespace": "flux",
+        "description": "energy",
+        "type": "projecte:fake",
+        "emc_value": 1
       }
     ]
   }
