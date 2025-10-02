@@ -1,7 +1,7 @@
 // priority: 0
 // requires: lightmanscurrency
 // @ts-check
-// Tweak to recipes from projecte
+// Vanilla items are the priority
 
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
