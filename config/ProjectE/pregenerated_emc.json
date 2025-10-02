@@ -1,46 +1,250 @@
 [
   {
-    "item": "minecraft:chiseled_tuff_bricks",
-    "emc": 2000
-  },
-  {
-    "item": "supplementaries:gravel_bricks",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:infested_cobblestone",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:polished_diorite_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:furnace",
-    "emc": 16000
-  },
-  {
-    "item": "minecraft:chiseled_deepslate",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:polished_granite_stairs",
-    "emc": 2000
+    "item": "alltheores:netherite_rod",
+    "emc": 499995
   },
   {
     "item": "minecraft:polished_deepslate_wall",
     "emc": 2000
   },
   {
-    "item": "minecraft:polished_andesite_slab",
-    "emc": 1000
+    "item": "alltheores:copper_plate",
+    "emc": 8
   },
   {
-    "item": "minecraft:polished_tuff_wall",
+    "item": "projecte:condenser_mk2",
+    "emc": 1001348109
+  },
+  {
+    "item": "projecte:dm_shovel",
+    "emc": 13510770
+  },
+  {
+    "item": "lightmanscurrency:coin_copper",
+    "emc": 1
+  },
+  {
+    "item": "productivebees:centrifuge",
+    "emc": 10672
+  },
+  {
+    "item": "cookingforblockheads:tool_rack",
+    "emc": 1886
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_R2",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.coal\"}"
+    },
+    "emc": 24240
+  },
+  {
+    "item": "minecraft:activator_rail",
+    "emc": 5231
+  },
+  {
+    "item": "minecraft:polished_tuff_stairs",
     "emc": 2000
   },
   {
-    "item": "minecraft:polished_andesite_stairs",
+    "item": "minecraft:brick_stairs",
+    "emc": 3000
+  },
+  {
+    "item": "minecraft:deepslate",
+    "emc": 2000
+  },
+  {
+    "item": "projecte:gem_of_eternal_density",
+    "emc": 27125530
+  },
+  {
+    "item": "utilitarian:snad",
+    "emc": 4000
+  },
+  {
+    "item": "projecte:red_matter",
+    "emc": 49240530
+  },
+  {
+    "item": "minecraft:torch",
+    "emc": 1265
+  },
+  {
+    "item": "projecte:dm_hoe",
+    "emc": 26821560
+  },
+  {
+    "item": "minecraft:oxidized_copper_door",
+    "emc": 16
+  },
+  {
+    "item": "minecraft:oxidized_copper",
+    "emc": 72
+  },
+  {
+    "item": "ae2:charger",
+    "emc": 4516
+  },
+  {
+    "item": "opolisutilities:mini_coal",
+    "emc": 3030
+  },
+  {
+    "item": "casting:plate_mold",
+    "emc": 3008
+  },
+  {
+    "item": "minecraft:diamond_axe",
+    "emc": 3824
+  },
+  {
+    "item": "minecraft:jukebox",
+    "emc": 108982
+  },
+  {
+    "item": "supplementaries:sconce",
+    "emc": 1565
+  },
+  {
+    "item": "casting:multiblock_valve",
+    "emc": 32000
+  },
+  {
+    "item": "minecraft:barrel",
+    "emc": 7868
+  },
+  {
+    "item": "minecraft:stone_pressure_plate",
+    "emc": 4000
+  },
+  {
+    "item": "supplementaries:cog_block",
+    "emc": 36460
+  },
+  {
+    "item": "minecraft:crafter",
+    "emc": 95896
+  },
+  {
+    "item": "minecraft:mossy_cobblestone_wall",
+    "emc": 2000
+  },
+  {
+    "item": "projecte:rm_hammer",
+    "emc": 152024190
+  },
+  {
+    "item": "ae2:crank",
+    "emc": 2256
+  },
+  {
+    "item": "alltheores:netherite_plate",
+    "emc": 999990
+  },
+  {
+    "item": "minecraft:iron_bars",
+    "emc": 337
+  },
+  {
+    "item": "minecraft:deepslate_tile_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:golden_hoe",
+    "emc": 19124
+  },
+  {
+    "item": "minecraft:diamond_boots",
+    "emc": 399960
+  },
+  {
+    "item": "powah:crystal_spirited",
+    "emc": 1009990
+  },
+  {
+    "item": "cookingforblockheads:sink",
+    "emc": 18700
+  },
+  {
+    "item": "casting:solidifier",
+    "emc": 19500
+  },
+  {
+    "item": "projecte:rm_chestplate",
+    "emc": 500410560
+  },
+  {
+    "item": "lightmanscurrency:coinblock_netherite",
+    "emc": 36000000
+  },
+  {
+    "item": "minecraft:charcoal",
+    "emc": 4500
+  },
+  {
+    "item": "minecraft:diamond_pickaxe",
+    "emc": 301094
+  },
+  {
+    "item": "powah:crystal_niotic",
+    "emc": 399990
+  },
+  {
+    "item": "alltheores:gold_rod",
+    "emc": 4500
+  },
+  {
+    "item": "productivebees:oak_wood_nest",
+    "emc": 7310
+  },
+  {
+    "item": "powah:capacitor_basic",
+    "emc": 55908
+  },
+  {
+    "item": "minecraft:campfire",
+    "emc": 19686
+  },
+  {
+    "item": "minecraft:cracked_deepslate_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "lctech:battery",
+    "emc": 49532
+  },
+  {
+    "item": "casting:repairing_mold",
+    "emc": 30900
+  },
+  {
+    "item": "minecraft:smooth_sandstone_slab",
+    "emc": 4000
+  },
+  {
+    "item": "projecte:rm_pick",
+    "emc": 201164730
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_R2",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.diamond\"}"
+    },
+    "emc": 36000
+  },
+  {
+    "item": "minecraft:brick_wall",
+    "emc": 3000
+  },
+  {
+    "item": "minecraft:exposed_copper_grate",
+    "emc": 18
+  },
+  {
+    "item": "minecraft:cobblestone_wall",
     "emc": 2000
   },
   {
@@ -48,147 +252,47 @@
     "emc": 2000
   },
   {
-    "item": "minecraft:polished_tuff",
-    "emc": 2000
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_E2",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.charcoal\"}"
+    },
+    "emc": 4496
   },
   {
-    "item": "minecraft:cobbled_deepslate",
-    "emc": 2000
+    "item": "powah:capacitor_niotic",
+    "emc": 1714440
   },
   {
-    "item": "minecraft:stone_slab",
-    "emc": 1000
+    "item": "minecraft:smooth_red_sandstone_slab",
+    "emc": 4000
   },
   {
-    "item": "minecraft:polished_diorite",
-    "emc": 2000
+    "item": "minecraft:stone_hoe",
+    "emc": 5124
   },
   {
-    "item": "lightmanscurrency:coin_diamond",
-    "emc": 100000
+    "item": "pipez:improved_upgrade",
+    "emc": 161500
   },
   {
-    "item": "minecraft:andesite_wall",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:diorite_wall",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:tuff_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:cobblestone_wall",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:tuff_bricks",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:tuff_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:diorite_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:cobbled_deepslate_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:polished_tuff_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:cobblestone_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:polished_diorite_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:tuff_brick_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "lightmanscurrency:coin_netherite",
-    "emc": 1000000
-  },
-  {
-    "item": "lightmanscurrency:coin_copper",
-    "emc": 1
-  },
-  {
-    "item": "minecraft:cobblestone_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:cracked_deepslate_tiles",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:tuff_wall",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:polished_granite",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:polished_deepslate_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "lightmanscurrency:coinpile_copper",
-    "emc": 9
-  },
-  {
-    "item": "lightmanscurrency:coinblock_gold",
-    "emc": 36000
-  },
-  {
-    "item": "lightmanscurrency:coinblock_emerald",
-    "emc": 360000
-  },
-  {
-    "item": "minecraft:deepslate_brick_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:deepslate",
-    "emc": 2000
+    "item": "productivebees:stone_nest",
+    "emc": 4362
   },
   {
     "item": "supplementaries:stone_tile_stairs",
     "emc": 2000
   },
   {
-    "item": "minecraft:stone_brick_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:mossy_cobblestone_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:cobblestone",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:deepslate_tile_wall",
-    "emc": 2000
-  },
-  {
-    "item": "lightmanscurrency:coin_iron",
-    "emc": 100
-  },
-  {
     "item": "minecraft:stone_brick_wall",
+    "emc": 2000
+  },
+  {
+    "item": "projecte:relay_mk2",
+    "emc": 14240700
+  },
+  {
+    "item": "supplementaries:stone_tile",
     "emc": 2000
   },
   {
@@ -196,219 +300,1961 @@
     "emc": 1000
   },
   {
-    "item": "minecraft:stone_stairs",
-    "emc": 2000
+    "item": "casting:gear_mold",
+    "emc": 3032
+  },
+  {
+    "item": "supplementaries:hourglass",
+    "emc": 28000
+  },
+  {
+    "item": "minecraft:red_sandstone_stairs",
+    "emc": 8000
+  },
+  {
+    "item": "alltheores:steel_block",
+    "emc": 443880
+  },
+  {
+    "item": "casting:black_bricks",
+    "emc": 3000
+  },
+  {
+    "item": "minecraft:iron_door",
+    "emc": 1800
+  },
+  {
+    "item": "projecte:medium_covalence_dust",
+    "emc": 630
+  },
+  {
+    "item": "alltheores:copper_rod",
+    "emc": 4
+  },
+  {
+    "item": "projecte:rm_axe",
+    "emc": 3824
+  },
+  {
+    "item": "minecraft:shield",
+    "emc": 7644
+  },
+  {
+    "item": "supplementaries:goblet",
+    "emc": 1400
+  },
+  {
+    "item": "projecte:rm_shovel",
+    "emc": 76062090
+  },
+  {
+    "item": "minecraft:iron_sword",
+    "emc": 2362
+  },
+  {
+    "item": "powah:furnator_basic",
+    "emc": 203754
+  },
+  {
+    "item": "opolisutilities:crafter",
+    "emc": 109696
+  },
+  {
+    "item": "minecraft:cut_copper",
+    "emc": 18
+  },
+  {
+    "item": "minecraft:oxidized_cut_copper_slab",
+    "emc": 9
+  },
+  {
+    "item": "powah:energy_hopper_basic",
+    "emc": 200076
+  },
+  {
+    "item": "minecraft:note_block",
+    "emc": 33292
+  },
+  {
+    "item": "minecraft:weathered_cut_copper_stairs",
+    "emc": 18
+  },
+  {
+    "item": "lightmanscurrency:coin_diamond",
+    "emc": 100000
   },
   {
     "item": "minecraft:deepslate_tiles",
     "emc": 2000
   },
   {
-    "item": "minecraft:cracked_stone_bricks",
-    "emc": 2000
+    "item": "powah:energy_cable_starter",
+    "emc": 2658
   },
   {
-    "item": "minecraft:deepslate_bricks",
-    "emc": 2000
+    "item": "supplementaries:pulley_block",
+    "emc": 8768
   },
   {
-    "item": "minecraft:chiseled_stone_bricks",
-    "emc": 2000
+    "item": "productivebees:snow_nest",
+    "emc": 3058
   },
   {
-    "item": "lightmanscurrency:coinpile_emerald",
-    "emc": 90000
+    "item": "projecte:rm_hoe",
+    "emc": 138613410
   },
   {
-    "item": "lightmanscurrency:coinpile_gold",
-    "emc": 9000
+    "item": "projecte:low_covalence_dust",
+    "emc": 512
   },
   {
-    "item": "minecraft:stone_brick_slab",
-    "emc": 1000
-  },
-  {
-    "item": "lightmanscurrency:coin_gold",
-    "emc": 1000
-  },
-  {
-    "item": "supplementaries:stone_tile",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:smooth_stone_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:polished_deepslate_slab",
-    "emc": 1000
-  },
-  {
-    "item": "lightmanscurrency:coinpile_iron",
-    "emc": 900
-  },
-  {
-    "item": "minecraft:tuff_brick_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:granite_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:deepslate_brick_wall",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:andesite_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:infested_stone",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:deepslate_tile_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:deepslate_brick_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:polished_deepslate",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:granite_slab",
-    "emc": 1000
-  },
-  {
-    "item": "lightmanscurrency:coinblock_diamond",
-    "emc": 3600000
-  },
-  {
-    "item": "minecraft:mossy_cobblestone_wall",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:tuff_brick_wall",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:infested_deepslate",
-    "emc": 2000
-  },
-  {
-    "item": "supplementaries:stone_tile_wall",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:cobbled_deepslate_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:mossy_cobblestone",
-    "emc": 2000
-  },
-  {
-    "item": "lightmanscurrency:coinpile_netherite",
-    "emc": 9000000
-  },
-  {
-    "item": "lightmanscurrency:coinblock_copper",
-    "emc": 36
-  },
-  {
-    "item": "minecraft:andesite_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:stone_pressure_plate",
-    "emc": 4000
-  },
-  {
-    "item": "minecraft:granite_wall",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:tuff",
-    "emc": 2000
-  },
-  {
-    "item": "lightmanscurrency:coinpile_diamond",
-    "emc": 900000
-  },
-  {
-    "item": "minecraft:stone_button",
-    "emc": 2000
-  },
-  {
-    "item": "lightmanscurrency:coin_emerald",
-    "emc": 10000
-  },
-  {
-    "item": "minecraft:gravel",
-    "emc": 2000
-  },
-  {
-    "item": "supplementaries:stone_tile_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:deepslate_tile_slab",
-    "emc": 1000
-  },
-  {
-    "item": "minecraft:cracked_deepslate_bricks",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:andesite",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:mossy_cobblestone_stairs",
-    "emc": 2000
-  },
-  {
-    "item": "minecraft:diorite",
-    "emc": 2000
+    "item": "productivebees:bottler",
+    "emc": 9300
   },
   {
     "item": "minecraft:polished_tuff_slab",
     "emc": 1000
   },
   {
-    "item": "minecraft:cobbled_deepslate_wall",
+    "item": "lctech:iron_tank",
+    "emc": 11600
+  },
+  {
+    "item": "minecraft:blast_furnace",
+    "emc": 26500
+  },
+  {
+    "item": "minecraft:copper_ingot",
+    "emc": 8
+  },
+  {
+    "item": "minecraft:golden_helmet",
+    "emc": 45000
+  },
+  {
+    "item": "projecte:aeternalis_fuel_block",
+    "emc": 13962240
+  },
+  {
+    "item": "projecte:klein_star_omega",
+    "emc": 3279575040
+  },
+  {
+    "item": "utilitarian:red_snad",
+    "emc": 4000
+  },
+  {
+    "item": "minecraft:diamond_block",
+    "emc": 899910
+  },
+  {
+    "item": "minecraft:polished_tuff",
     "emc": 2000
   },
   {
-    "item": "lightmanscurrency:coinblock_netherite",
-    "emc": 36000000
+    "item": "powah:spirited_crystal_block",
+    "emc": 9089910
   },
   {
-    "item": "minecraft:polished_andesite",
+    "item": "casting:molten_coal_bucket",
+    "emc": 303024
+  },
+  {
+    "item": "minecraft:crafting_table",
+    "emc": 4496
+  },
+  {
+    "item": "minecraft:stone_stairs",
     "emc": 2000
+  },
+  {
+    "item": "alltheores:steel_rod",
+    "emc": 24660
+  },
+  {
+    "item": "minecraft:damaged_anvil",
+    "emc": 435
+  },
+  {
+    "item": "projecte:alchemical_coal",
+    "emc": 96960
+  },
+  {
+    "item": "casting:rod_mold",
+    "emc": 3004
+  },
+  {
+    "item": "lctech:diamond_tank",
+    "emc": 407960
+  },
+  {
+    "item": "minecraft:tuff_brick_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:light_weighted_pressure_plate",
+    "emc": 18000
+  },
+  {
+    "item": "minecraft:lava_bucket",
+    "emc": 1024
+  },
+  {
+    "item": "minecraft:granite_wall",
+    "emc": 2000
+  },
+  {
+    "item": "ae2:inscriber",
+    "emc": 77652
+  },
+  {
+    "item": "minecraft:gold_block",
+    "emc": 81000
+  },
+  {
+    "item": "casting:multiblock_regulator",
+    "emc": 6000
+  },
+  {
+    "item": "alltheores:diamond_rod",
+    "emc": 49995
+  },
+  {
+    "item": "rftoolsbase:machine_base",
+    "emc": 9000
+  },
+  {
+    "item": "minecraft:oxidized_chiseled_copper",
+    "emc": 18
+  },
+  {
+    "item": "minecraft:cracked_deepslate_tiles",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:gold_ingot",
+    "emc": 9000
+  },
+  {
+    "item": "lightmanscurrency:coinpile_emerald",
+    "emc": 90000
+  },
+  {
+    "item": "minecraft:mossy_cobblestone",
+    "emc": 2000
+  },
+  {
+    "item": "utilitarian:redstone_clock",
+    "emc": 99200
+  },
+  {
+    "item": "casting:molten_dark_steel_bucket",
+    "emc": 570024
+  },
+  {
+    "item": "casting:tank",
+    "emc": 8000
+  },
+  {
+    "item": "supplementaries:statue",
+    "emc": 4000
+  },
+  {
+    "item": "cookingforblockheads:toaster",
+    "emc": 10200
+  },
+  {
+    "item": "minecraft:polished_deepslate",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:granite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coinpile_iron",
+    "emc": 900
+  },
+  {
+    "item": "casting:molten_iron_bucket",
+    "emc": 10024
+  },
+  {
+    "item": "lightmanscurrency:coinblock_diamond",
+    "emc": 3600000
+  },
+  {
+    "item": "minecraft:oak_log",
+    "emc": 4500
+  },
+  {
+    "item": "minecraft:weathered_copper_trapdoor",
+    "emc": 24
+  },
+  {
+    "item": "cookingforblockheads:cabinet",
+    "emc": 23992
+  },
+  {
+    "item": "casting:molten_black_brick_bucket",
+    "emc": 3024
+  },
+  {
+    "item": "lightmanscurrency:coinpile_diamond",
+    "emc": 900000
+  },
+  {
+    "item": "minecraft:netherite_block",
+    "emc": 8999910
+  },
+  {
+    "item": "projecte:relay_mk1",
+    "emc": 915910
+  },
+  {
+    "item": "minecraft:chiseled_copper",
+    "emc": 18
+  },
+  {
+    "item": "utilitarian:tiny_coal",
+    "emc": 3030
+  },
+  {
+    "item": "trashcans:energy_trash_can",
+    "emc": 40300
+  },
+  {
+    "item": "minecraft:wooden_axe",
+    "emc": 3824
+  },
+  {
+    "item": "productivebees:gravel_nest",
+    "emc": 4810
+  },
+  {
+    "item": "minecraft:stone_button",
+    "emc": 2000
+  },
+  {
+    "item": "projecte:condenser_mk1",
+    "emc": 526989
+  },
+  {
+    "item": "casting:black_brick_glass",
+    "emc": 5000
+  },
+  {
+    "item": "minecraft:exposed_copper_trapdoor",
+    "emc": 24
   },
   {
     "item": "lightmanscurrency:coinblock_iron",
     "emc": 3600
   },
   {
+    "item": "opolisutilities:block_placer",
+    "emc": 13800
+  },
+  {
+    "item": "minecraft:chiseled_tuff_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "powah:capacitor_hardened",
+    "emc": 77140
+  },
+  {
+    "item": "projecte:iron_band",
+    "emc": 8200
+  },
+  {
+    "item": "supplementaries:way_sign_oak",
+    "emc": 1217
+  },
+  {
+    "item": "minecraft:lightning_rod",
+    "emc": 24
+  },
+  {
+    "item": "minecraft:cobblestone",
+    "emc": 2000
+  },
+  {
+    "item": "casting:magnet",
+    "emc": 59400
+  },
+  {
+    "item": "projecte:mercurial_eye",
+    "emc": 49359520
+  },
+  {
+    "item": "lightmanscurrency:coinpile_netherite",
+    "emc": 9000000
+  },
+  {
+    "item": "supplementaries:timber_frame",
+    "emc": 2248
+  },
+  {
+    "item": "projecte:dm_axe",
+    "emc": 3824
+  },
+  {
+    "item": "casting:mixer_whisk",
+    "emc": 27900
+  },
+  {
+    "item": "casting:block_mold",
+    "emc": 3072
+  },
+  {
+    "item": "projecte:rm_sword",
+    "emc": 125202630
+  },
+  {
+    "item": "casting:unbreaking",
+    "emc": 16000
+  },
+  {
+    "item": "trashcans:ultimate_trash_can",
+    "emc": 81316
+  },
+  {
+    "item": "productivebees:spawn_egg_configurable_bee",
+    "emc": 279100
+  },
+  {
+    "item": "alltheores:gold_gear",
+    "emc": 36000
+  },
+  {
+    "item": "casting:silk_touch",
+    "emc": 79920
+  },
+  {
+    "item": "minecraft:cauldron",
+    "emc": 6300
+  },
+  {
+    "item": "minecraft:wooden_pickaxe",
+    "emc": 4496
+  },
+  {
+    "item": "minecraft:exposed_copper",
+    "emc": 72
+  },
+  {
+    "item": "projecte:aeternalis_fuel",
+    "emc": 1551360
+  },
+  {
+    "item": "casting:ball_mold",
+    "emc": 3062
+  },
+  {
+    "item": "powah:energy_cell_basic",
+    "emc": 233332
+  },
+  {
+    "item": "minecraft:iron_trapdoor",
+    "emc": 3600
+  },
+  {
+    "item": "minecraft:deepslate_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_R1",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.gold_ingot\"}"
+    },
+    "emc": 24997
+  },
+  {
+    "item": "projecte:klein_star_drei",
+    "emc": 51243360
+  },
+  {
+    "item": "productivebees:nest_locator",
+    "emc": 40629
+  },
+  {
+    "item": "powah:energy_cable_hardened",
+    "emc": 8399
+  },
+  {
+    "item": "minecraft:oak_chest_boat",
+    "emc": 14612
+  },
+  {
+    "item": "minecraft:polished_tuff_wall",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coinblock_gold",
+    "emc": 36000
+  },
+  {
+    "item": "minecraft:iron_helmet",
+    "emc": 4500
+  },
+  {
+    "item": "projecte:dm_furnace",
+    "emc": 425961280
+  },
+  {
+    "item": "minecraft:chest_minecart",
+    "emc": 13492
+  },
+  {
+    "item": "minecraft:smooth_stone_slab",
+    "emc": 1000
+  },
+  {
+    "item": "projecte:zero_ring",
+    "emc": 26630896
+  },
+  {
+    "item": "cookingforblockheads:white_fridge",
+    "emc": 10792
+  },
+  {
+    "item": "ae2:nether_quartz_axe",
+    "emc": 3824
+  },
+  {
+    "item": "minecraft:stone_axe",
+    "emc": 3824
+  },
+  {
+    "item": "minecraft:diamond_chestplate",
+    "emc": 799920
+  },
+  {
+    "item": "minecraft:cobbled_deepslate_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_granite",
+    "emc": 2000
+  },
+  {
+    "item": "alltheores:iron_dust",
+    "emc": 900
+  },
+  {
+    "item": "minecraft:heavy_weighted_pressure_plate",
+    "emc": 1800
+  },
+  {
+    "item": "minecraft:oak_sign",
+    "emc": 2435
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_I",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.charcoal\"}"
+    },
+    "emc": 4496
+  },
+  {
+    "item": "supplementaries:stone_tile_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:iron_chestplate",
+    "emc": 7200
+  },
+  {
+    "item": "powah:energy_discharger_niotic",
+    "emc": 3438976
+  },
+  {
+    "item": "minecraft:water_bucket",
+    "emc": 1024
+  },
+  {
+    "item": "casting:gem_mold",
+    "emc": 7500
+  },
+  {
+    "item": "minecraft:shears",
+    "emc": 1800
+  },
+  {
+    "item": "minecraft:tripwire_hook",
+    "emc": 1293
+  },
+  {
+    "item": "alltheores:iron_rod",
+    "emc": 450
+  },
+  {
+    "item": "alltheores:steel_dust",
+    "emc": 49320
+  },
+  {
+    "item": "projecte:transmutation_tablet",
+    "emc": 212996640
+  },
+  {
+    "item": "projecte:alchemical_coal_block",
+    "emc": 872640
+  },
+  {
+    "item": "minecraft:lever",
+    "emc": 2562
+  },
+  {
+    "item": "supplementaries:gold_door",
+    "emc": 18000
+  },
+  {
+    "item": "minecraft:bucket",
+    "emc": 24
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_R2",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.iron_ingot\"}"
+    },
+    "emc": 1125
+  },
+  {
+    "item": "supplementaries:stone_tile_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:gravel",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:repeater",
+    "emc": 80024
+  },
+  {
+    "item": "powah:capacitor_basic_large",
+    "emc": 111816
+  },
+  {
+    "item": "alltheores:iron_gear",
+    "emc": 3600
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_N",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.emerald\"}"
+    },
+    "emc": 199980
+  },
+  {
+    "item": "cookingforblockheads:cutting_board",
+    "emc": 4386
+  },
+  {
+    "item": "opolisutilities:crook",
+    "emc": 2248
+  },
+  {
+    "item": "minecraft:coal_block",
+    "emc": 218160
+  },
+  {
+    "item": "casting:nugget_mold",
+    "emc": 3000
+  },
+  {
+    "item": "supplementaries:jar_boat",
+    "emc": 20182
+  },
+  {
+    "item": "minecraft:weathered_chiseled_copper",
+    "emc": 18
+  },
+  {
+    "item": "projecte:mobius_fuel_block",
+    "emc": 3490560
+  },
+  {
+    "item": "minecraft:cobbled_deepslate",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:diamond_helmet",
+    "emc": 499950
+  },
+  {
+    "item": "pipez:universal_pipe",
+    "emc": 49315
+  },
+  {
+    "item": "alltheores:copper_dust",
+    "emc": 8
+  },
+  {
+    "item": "minecraft:minecart",
+    "emc": 4500
+  },
+  {
+    "item": "minecraft:tuff_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:hopper",
+    "emc": 13492
+  },
+  {
+    "item": "projecte:dm_pedestal",
+    "emc": 463177920
+  },
+  {
+    "item": "minecraft:polished_diorite",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_N",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.coal\"}"
+    },
+    "emc": 18000
+  },
+  {
+    "item": "projecte:rm_furnace",
+    "emc": 1016847640
+  },
+  {
+    "item": "projecte:dm_shears",
+    "emc": 13410780
+  },
+  {
+    "item": "minecraft:andesite_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:sandstone",
+    "emc": 8000
+  },
+  {
+    "item": "minecraft:oak_boat",
+    "emc": 5620
+  },
+  {
+    "item": "powah:energy_discharger_starter",
+    "emc": 66004
+  },
+  {
+    "item": "powah:furnator_hardened",
+    "emc": 413884
+  },
+  {
+    "item": "minecraft:deepslate_tile_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:obsidian",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:sandstone_wall",
+    "emc": 8000
+  },
+  {
+    "item": "minecraft:golden_pickaxe",
+    "emc": 28124
+  },
+  {
+    "item": "powah:energy_cable_niotic",
+    "emc": 209847
+  },
+  {
+    "item": "casting:multiblock_controller",
+    "emc": 27000
+  },
+  {
+    "item": "alltheores:gold_plate",
+    "emc": 9000
+  },
+  {
+    "item": "powah:capacitor_spirited",
+    "emc": 4154440
+  },
+  {
+    "item": "projecte:divining_rod_2",
+    "emc": 9698
+  },
+  {
+    "item": "powah:dielectric_rod",
+    "emc": 625
+  },
+  {
+    "item": "casting:fluid_mover",
+    "emc": 3750
+  },
+  {
+    "item": "pipez:item_pipe",
+    "emc": 6643
+  },
+  {
+    "item": "minecraft:bricks",
+    "emc": 3000
+  },
+  {
+    "item": "minecraft:snow_block",
+    "emc": 248
+  },
+  {
+    "item": "minecraft:glass",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:relayer",
+    "emc": 61500
+  },
+  {
+    "item": "projecte:dm_hammer",
+    "emc": 26921550
+  },
+  {
+    "item": "minecraft:diamond_sword",
+    "emc": 200542
+  },
+  {
+    "item": "casting:ingot_mold",
+    "emc": 3008
+  },
+  {
+    "item": "minecraft:emerald_block",
+    "emc": 89910
+  },
+  {
+    "item": "casting:molten_netherite_bucket",
+    "emc": 11111024
+  },
+  {
+    "item": "supplementaries:sconce_lever",
+    "emc": 25865
+  },
+  {
+    "item": "lightmanscurrency:coinmint",
+    "emc": 46172
+  },
+  {
+    "item": "alltheores:steel_nugget",
+    "emc": 5480
+  },
+  {
+    "item": "minecraft:ice",
+    "emc": 250
+  },
+  {
+    "item": "minecraft:chest",
+    "emc": 8992
+  },
+  {
+    "item": "minecraft:oak_trapdoor",
+    "emc": 2250
+  },
+  {
+    "item": "minecraft:stone_sword",
+    "emc": 4562
+  },
+  {
     "item": "minecraft:stone",
     "emc": 2000
   },
   {
-    "item": "minecraft:stone_bricks",
+    "item": "minecraft:snow",
+    "emc": 124
+  },
+  {
+    "item": "supplementaries:wrench",
+    "emc": 32
+  },
+  {
+    "item": "minecraft:iron_block",
+    "emc": 8100
+  },
+  {
+    "item": "projecte:mobius_fuel",
+    "emc": 387840
+  },
+  {
+    "item": "minecraft:golden_leggings",
+    "emc": 63000
+  },
+  {
+    "item": "minecraft:polished_deepslate_slab",
+    "emc": 1000
+  },
+  {
+    "item": "productivebees:powered_centrifuge",
+    "emc": 59272
+  },
+  {
+    "item": "minecraft:chain",
+    "emc": 1100
+  },
+  {
+    "item": "opolisutilities:fluid_generator",
+    "emc": 13824
+  },
+  {
+    "item": "minecraft:grindstone",
+    "emc": 4372
+  },
+  {
+    "item": "minecraft:powered_rail",
+    "emc": 13143
+  },
+  {
+    "item": "projecte:rm_shears",
+    "emc": 62651310
+  },
+  {
+    "item": "casting:torch_placing",
+    "emc": 1587328
+  },
+  {
+    "item": "minecraft:glass_pane",
+    "emc": 750
+  },
+  {
+    "item": "minecraft:smoker",
+    "emc": 34000
+  },
+  {
+    "item": "projecte:rm_katar",
+    "emc": 572673824
+  },
+  {
+    "item": "minecraft:andesite_wall",
     "emc": 2000
+  },
+  {
+    "item": "minecraft:iron_leggings",
+    "emc": 6300
+  },
+  {
+    "item": "casting:multiblock_mixer",
+    "emc": 46000
+  },
+  {
+    "item": "lightmanscurrency:coinblock_emerald",
+    "emc": 360000
+  },
+  {
+    "item": "casting:chilled_water_bucket",
+    "emc": 272
+  },
+  {
+    "item": "minecraft:weathered_copper_grate",
+    "emc": 18
+  },
+  {
+    "item": "minecraft:suspicious_sand",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:piston",
+    "emc": 36572
+  },
+  {
+    "item": "alltheores:iron_ore_hammer",
+    "emc": 17886
+  },
+  {
+    "item": "minecraft:coal",
+    "emc": 24240
+  },
+  {
+    "item": "minecraft:iron_pickaxe",
+    "emc": 3824
+  },
+  {
+    "item": "minecraft:hopper_minecart",
+    "emc": 17992
+  },
+  {
+    "item": "opolisutilities:resource_generator",
+    "emc": 14000
+  },
+  {
+    "item": "minecraft:enchanted_golden_apple",
+    "emc": 899910
+  },
+  {
+    "item": "minecraft:polished_andesite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "powah:energy_discharger_basic",
+    "emc": 121912
+  },
+  {
+    "item": "minecraft:stone_shovel",
+    "emc": 3124
+  },
+  {
+    "item": "powah:furnator_starter",
+    "emc": 81338
+  },
+  {
+    "item": "minecraft:polished_deepslate_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:tuff_slab",
+    "emc": 1000
+  },
+  {
+    "item": "casting:auto_smelt",
+    "emc": 8000
+  },
+  {
+    "item": "minecraft:iron_shovel",
+    "emc": 2024
+  },
+  {
+    "item": "projecte:evertide_amulet",
+    "emc": 39938370
+  },
+  {
+    "item": "alltheores:copper_gear",
+    "emc": 32
+  },
+  {
+    "item": "opolisutilities:wooden_shears",
+    "emc": 2248
+  },
+  {
+    "item": "minecraft:deepslate_brick_slab",
+    "emc": 1000
+  },
+  {
+    "item": "casting:multiblock_coolant_tank",
+    "emc": 14000
+  },
+  {
+    "item": "powah:energy_cell_starter",
+    "emc": 121516
+  },
+  {
+    "item": "minecraft:polished_andesite_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:iron_ingot",
+    "emc": 900
+  },
+  {
+    "item": "powah:dielectric_paste",
+    "emc": 666
+  },
+  {
+    "item": "minecraft:golden_axe",
+    "emc": 3824
+  },
+  {
+    "item": "minecraft:weathered_cut_copper",
+    "emc": 18
+  },
+  {
+    "item": "minecraft:chiseled_deepslate",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:timber_cross_brace",
+    "emc": 2248
+  },
+  {
+    "item": "minecraft:red_sandstone",
+    "emc": 8000
+  },
+  {
+    "item": "minecraft:armor_stand",
+    "emc": 4372
+  },
+  {
+    "item": "productivebees:feeder",
+    "emc": 9992
+  },
+  {
+    "item": "powah:dielectric_rod_horizontal",
+    "emc": 625
+  },
+  {
+    "item": "minecraft:furnace_minecart",
+    "emc": 20500
+  },
+  {
+    "item": "powah:energizing_orb",
+    "emc": 17975
+  },
+  {
+    "item": "minecraft:tuff_brick_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "casting:molten_diamond_bucket",
+    "emc": 1111024
+  },
+  {
+    "item": "casting:multiblock_fuel_tank",
+    "emc": 20000
+  },
+  {
+    "item": "supplementaries:jar",
+    "emc": 14562
+  },
+  {
+    "item": "powah:steel_energized",
+    "emc": 9950
+  },
+  {
+    "item": "minecraft:polished_andesite",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:tuff_wall",
+    "emc": 2000
+  },
+  {
+    "item": "powah:energy_hopper_hardened",
+    "emc": 363786
+  },
+  {
+    "item": "projecte:transmutation_table",
+    "emc": 16000
+  },
+  {
+    "item": "utilitarian:tiny_charcoal",
+    "emc": 562
+  },
+  {
+    "item": "minecraft:emerald",
+    "emc": 9990
+  },
+  {
+    "item": "minecraft:stone_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:iron_nugget",
+    "emc": 100
+  },
+  {
+    "item": "casting:protection",
+    "emc": 394560
+  },
+  {
+    "item": "minecraft:furnace",
+    "emc": 16000
+  },
+  {
+    "item": "supplementaries:iron_gate",
+    "emc": 1100
+  },
+  {
+    "item": "minecraft:exposed_cut_copper_stairs",
+    "emc": 18
+  },
+  {
+    "item": "casting:black_brick",
+    "emc": 750
+  },
+  {
+    "item": "utilitarian:trowel",
+    "emc": 2362
+  },
+  {
+    "item": "minecraft:oak_slab",
+    "emc": 562
+  },
+  {
+    "item": "minecraft:deepslate_brick_wall",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:gravel_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "cookingforblockheads:connector",
+    "emc": 24000
+  },
+  {
+    "item": "powah:blank_card",
+    "emc": 1250
+  },
+  {
+    "item": "opolisutilities:item_repairer",
+    "emc": 95700
+  },
+  {
+    "item": "supplementaries:key",
+    "emc": 11000
+  },
+  {
+    "item": "lightmanscurrency:portable_atm",
+    "emc": 31200
+  },
+  {
+    "item": "minecraft:potion",
+    "data": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:mundane"
+      }
+    },
+    "emc": 2999
+  },
+  {
+    "item": "lightmanscurrency:coin_emerald",
+    "emc": 10000
+  },
+  {
+    "item": "cookingforblockheads:spice_rack",
+    "emc": 1124
+  },
+  {
+    "item": "minecraft:smooth_sandstone_stairs",
+    "emc": 8000
+  },
+  {
+    "item": "pipez:filter_destination_tool",
+    "emc": 54974
+  },
+  {
+    "item": "minecraft:diorite_wall",
+    "emc": 2000
+  },
+  {
+    "item": "alltheores:gold_dust",
+    "emc": 9000
+  },
+  {
+    "item": "minecraft:terracotta",
+    "emc": 3000
+  },
+  {
+    "item": "casting:equipment_modifier",
+    "emc": 61496
+  },
+  {
+    "item": "minecraft:oxidized_cut_copper_stairs",
+    "emc": 18
+  },
+  {
+    "item": "projecte:dm_chestplate",
+    "emc": 106486320
+  },
+  {
+    "item": "minecraft:red_sandstone_slab",
+    "emc": 4000
+  },
+  {
+    "item": "minecraft:oak_wood",
+    "emc": 6000
+  },
+  {
+    "item": "powah:charged_snowball",
+    "emc": 500062
+  },
+  {
+    "item": "minecraft:chiseled_stone_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_E2",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.ender_pearl\"}"
+    },
+    "emc": 3600
+  },
+  {
+    "item": "minecraft:wooden_shovel",
+    "emc": 2248
+  },
+  {
+    "item": "casting:excavation",
+    "emc": 399960
+  },
+  {
+    "item": "minecraft:copper_grate",
+    "emc": 18
+  },
+  {
+    "item": "minecraft:granite_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:golden_shovel",
+    "emc": 10124
+  },
+  {
+    "item": "pipez:basic_upgrade",
+    "emc": 28300
+  },
+  {
+    "item": "minecraft:dropper",
+    "emc": 38300
+  },
+  {
+    "item": "minecraft:golden_chestplate",
+    "emc": 72000
+  },
+  {
+    "item": "minecraft:sandstone_stairs",
+    "emc": 8000
+  },
+  {
+    "item": "powah:energy_hopper_starter",
+    "emc": 78830
+  },
+  {
+    "item": "minecraft:deepslate_tile_wall",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:crank",
+    "emc": 6562
+  },
+  {
+    "item": "minecraft:mossy_cobblestone_slab",
+    "emc": 1000
+  },
+  {
+    "item": "powah:magmator_hardened",
+    "emc": 397908
+  },
+  {
+    "item": "powah:energy_discharger_hardened",
+    "emc": 164376
+  },
+  {
+    "item": "powah:battery_basic",
+    "emc": 890892
+  },
+  {
+    "item": "cookingforblockheads:counter",
+    "emc": 29992
+  },
+  {
+    "item": "minecraft:lodestone",
+    "emc": 1015990
+  },
+  {
+    "item": "utilitarian:well_behaved_dropper",
+    "emc": 42300
+  },
+  {
+    "item": "lightmanscurrency:coinblock_copper",
+    "emc": 36
+  },
+  {
+    "item": "minecraft:cut_red_sandstone_slab",
+    "emc": 4000
+  },
+  {
+    "item": "projecte:dm_pick",
+    "emc": 40132350
+  },
+  {
+    "item": "lctech:gold_tank",
+    "emc": 44000
+  },
+  {
+    "item": "projecte:dm_helmet",
+    "emc": 66553950
+  },
+  {
+    "item": "minecraft:smithing_table",
+    "emc": 6296
+  },
+  {
+    "item": "powah:dielectric_casing",
+    "emc": 6100
+  },
+  {
+    "item": "powah:niotic_crystal_block",
+    "emc": 3599910
   },
   {
     "item": "minecraft:smooth_stone",
     "emc": 2000
   },
   {
+    "item": "projecte:dark_matter_block",
+    "emc": 53243160
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_B",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.gold_ingot\"}"
+    },
+    "emc": 7200
+  },
+  {
+    "item": "minecraft:cracked_stone_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:redstone",
+    "emc": 24300
+  },
+  {
+    "item": "minecraft:oak_button",
+    "emc": 1124
+  },
+  {
+    "item": "minecraft:red_sandstone_wall",
+    "emc": 8000
+  },
+  {
+    "item": "powah:battery_hardened",
+    "emc": 1276486
+  },
+  {
+    "item": "minecraft:infested_cobblestone",
+    "emc": 2000
+  },
+  {
+    "item": "powah:magmator_basic",
+    "emc": 187778
+  },
+  {
+    "item": "ae2:certus_quartz_axe",
+    "emc": 3824
+  },
+  {
+    "item": "casting:iced_water_bucket",
+    "emc": 274
+  },
+  {
+    "item": "alltheores:copper_ore_hammer",
+    "emc": 1830
+  },
+  {
+    "item": "powah:energy_cable_basic",
+    "emc": 5121
+  },
+  {
+    "item": "casting:dust_mold",
+    "emc": 3008
+  },
+  {
+    "item": "powah:magmator_starter",
+    "emc": 65362
+  },
+  {
+    "item": "projecte:rm_helmet",
+    "emc": 312756600
+  },
+  {
+    "item": "minecraft:tuff_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_diorite_slab",
+    "emc": 1000
+  },
+  {
+    "item": "projecte:dm_boots",
+    "emc": 53243160
+  },
+  {
+    "item": "minecraft:infested_stone",
+    "emc": 2000
+  },
+  {
+    "item": "alltheores:steel_plate",
+    "emc": 49320
+  },
+  {
+    "item": "minecraft:smooth_sandstone",
+    "emc": 8000
+  },
+  {
+    "item": "minecraft:chiseled_red_sandstone",
+    "emc": 8000
+  },
+  {
+    "item": "minecraft:decorated_pot",
+    "emc": 3000
+  },
+  {
+    "item": "powah:capacitor_basic_tiny",
+    "emc": 27954
+  },
+  {
+    "item": "projecte:klein_star_zwei",
+    "emc": 12810840
+  },
+  {
+    "item": "supplementaries:bubble_blower",
+    "emc": 1300
+  },
+  {
+    "item": "minecraft:iron_boots",
+    "emc": 3600
+  },
+  {
+    "item": "minecraft:diamond_hoe",
+    "emc": 201104
+  },
+  {
+    "item": "minecraft:cobblestone_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:flower_pot",
+    "emc": 2250
+  },
+  {
+    "item": "minecraft:redstone_block",
+    "emc": 218700
+  },
+  {
+    "item": "minecraft:oak_pressure_plate",
+    "emc": 2248
+  },
+  {
+    "item": "minecraft:andesite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "projecte:relay_mk3",
+    "emc": 63495230
+  },
+  {
+    "item": "minecraft:stone_brick_slab",
+    "emc": 1000
+  },
+  {
+    "item": "trashcans:item_trash_can",
+    "emc": 24992
+  },
+  {
+    "item": "projecte:dm_sword",
+    "emc": 26721570
+  },
+  {
+    "item": "projecte:rm_leggings",
+    "emc": 437859240
+  },
+  {
+    "item": "pipez:energy_pipe",
+    "emc": 29193
+  },
+  {
+    "item": "minecraft:brick_slab",
+    "emc": 1500
+  },
+  {
+    "item": "minecraft:cut_copper_stairs",
+    "emc": 18
+  },
+  {
+    "item": "casting:molten_steel_bucket",
+    "emc": 548024
+  },
+  {
+    "item": "casting:molten_emerald_bucket",
+    "emc": 111024
+  },
+  {
+    "item": "minecraft:stick",
+    "emc": 562
+  },
+  {
+    "item": "minecraft:stone_bricks",
+    "emc": 2000
+  },
+  {
+    "item": "casting:molten_copper_bucket",
+    "emc": 112
+  },
+  {
+    "item": "minecraft:potion",
+    "data": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    },
+    "emc": 2333
+  },
+  {
+    "item": "minecraft:stripped_oak_wood",
+    "emc": 11098
+  },
+  {
+    "item": "minecraft:wooden_sword",
+    "emc": 2810
+  },
+  {
+    "item": "productivebees:jar_oak",
+    "emc": 6374
+  },
+  {
+    "item": "minecraft:wooden_hoe",
+    "emc": 3372
+  },
+  {
+    "item": "pipez:fluid_pipe",
+    "emc": 1859
+  },
+  {
+    "item": "sfm:water_tank",
+    "emc": 22022
+  },
+  {
+    "item": "minecraft:cut_sandstone_slab",
+    "emc": 4000
+  },
+  {
+    "item": "minecraft:netherite_ingot",
+    "emc": 999990
+  },
+  {
+    "item": "minecraft:bowl",
+    "emc": 843
+  },
+  {
+    "item": "alltheores:diamond_gear",
+    "emc": 399960
+  },
+  {
+    "item": "powah:energy_cell_hardened",
+    "emc": 666844
+  },
+  {
+    "item": "productivebees:sand_nest",
+    "emc": 4810
+  },
+  {
+    "item": "powah:battery_starter",
+    "emc": 444996
+  },
+  {
+    "item": "minecraft:cobbled_deepslate_slab",
+    "emc": 1000
+  },
+  {
+    "item": "minecraft:copper_door",
+    "emc": 16
+  },
+  {
+    "item": "minecraft:stone_pickaxe",
+    "emc": 7124
+  },
+  {
+    "item": "minecraft:cut_red_sandstone",
+    "emc": 8000
+  },
+  {
+    "item": "casting:knockback",
+    "emc": 146288
+  },
+  {
+    "item": "minecraft:smooth_red_sandstone_stairs",
+    "emc": 8000
+  },
+  {
+    "item": "opolisutilities:mini_charcoal",
+    "emc": 562
+  },
+  {
+    "item": "supplementaries:wind_vane",
+    "emc": 27337
+  },
+  {
+    "item": "supplementaries:hat_stand",
+    "emc": 2124
+  },
+  {
+    "item": "supplementaries:turn_table",
+    "emc": 35680
+  },
+  {
+    "item": "minecraft:oak_fence_gate",
+    "emc": 4496
+  },
+  {
+    "item": "alltheores:diamond_dust",
+    "emc": 99990
+  },
+  {
+    "item": "minecraft:diamond_leggings",
+    "emc": 699930
+  },
+  {
+    "item": "projecte:dm_leggings",
+    "emc": 93175530
+  },
+  {
+    "item": "projecte:klein_star_ein",
+    "emc": 3202710
+  },
+  {
+    "item": "minecraft:mossy_cobblestone_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:stripped_oak_log",
+    "emc": 8324
+  },
+  {
+    "item": "minecraft:clay_ball",
+    "emc": 750
+  },
+  {
+    "item": "lightmanscurrency:coin_gold",
+    "emc": 1000
+  },
+  {
+    "item": "supplementaries:cage",
+    "emc": 5060
+  },
+  {
+    "item": "casting:super_coolant_bucket",
+    "emc": 273
+  },
+  {
+    "item": "minecraft:smooth_red_sandstone",
+    "emc": 8000
+  },
+  {
+    "item": "minecraft:netherite_axe",
+    "emc": 3824
+  },
+  {
+    "item": "minecraft:cut_sandstone",
+    "emc": 8000
+  },
+  {
+    "item": "minecraft:chiseled_bookshelf",
+    "emc": 8430
+  },
+  {
+    "item": "minecraft:copper_block",
+    "emc": 72
+  },
+  {
+    "item": "projecte:rm_morning_star",
+    "emc": 724694190
+  },
+  {
+    "item": "minecraft:cut_copper_slab",
+    "emc": 9
+  },
+  {
+    "item": "minecraft:brick",
+    "emc": 750
+  },
+  {
+    "item": "minecraft:snowball",
+    "emc": 62
+  },
+  {
+    "item": "supplementaries:clock_block",
+    "emc": 69292
+  },
+  {
+    "item": "minecraft:cobbled_deepslate_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:polished_diorite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "casting:multiblock_solidifier",
+    "emc": 31500
+  },
+  {
+    "item": "minecraft:tuff_brick_wall",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:chiseled_sandstone",
+    "emc": 8000
+  },
+  {
+    "item": "opolisutilities:redstone_clock",
+    "emc": 232500
+  },
+  {
+    "item": "supplementaries:faucet",
+    "emc": 4162
+  },
+  {
+    "item": "lightmanscurrency:coinpile_gold",
+    "emc": 9000
+  },
+  {
+    "item": "minecraft:exposed_copper_door",
+    "emc": 16
+  },
+  {
+    "item": "lightmanscurrency:atm",
+    "emc": 31200
+  },
+  {
+    "item": "casting:controller",
+    "emc": 15000
+  },
+  {
+    "item": "projecte:divining_rod_3",
+    "emc": 34538
+  },
+  {
+    "item": "casting:molten_redstone_bucket",
+    "emc": 270024
+  },
+  {
+    "item": "minecraft:iron_axe",
+    "emc": 3824
+  },
+  {
+    "item": "minecraft:deepslate_brick_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "projecte:klein_star_vier",
+    "emc": 204973440
+  },
+  {
+    "item": "projecte:rm_boots",
+    "emc": 250205280
+  },
+  {
+    "item": "minecraft:oak_fence",
+    "emc": 1873
+  },
+  {
+    "item": "powah:wrench",
+    "emc": 3798
+  },
+  {
+    "item": "minecraft:iron_hoe",
+    "emc": 2924
+  },
+  {
+    "item": "minecraft:clock",
+    "emc": 60300
+  },
+  {
     "item": "minecraft:chiseled_tuff",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:clay",
+    "emc": 3000
+  },
+  {
+    "item": "productivebees:obsidian_nest",
+    "emc": 202542
+  },
+  {
+    "item": "minecraft:diamond_shovel",
+    "emc": 101114
+  },
+  {
+    "item": "casting:mixer",
+    "emc": 34000
+  },
+  {
+    "item": "lightmanscurrency:coin_netherite",
+    "emc": 1000000
+  },
+  {
+    "item": "minecraft:weathered_copper_door",
+    "emc": 16
+  },
+  {
+    "item": "projecte:high_covalence_dust",
+    "emc": 3105
+  },
+  {
+    "item": "supplementaries:altimeter",
+    "emc": 24332
+  },
+  {
+    "item": "minecraft:cobblestone_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "pipez:ultimate_upgrade",
+    "emc": 6311020
+  },
+  {
+    "item": "minecraft:diorite",
+    "emc": 2000
+  },
+  {
+    "item": "opolisutilities:log_sheet",
+    "emc": 3000
+  },
+  {
+    "item": "alltheores:iron_plate",
+    "emc": 900
+  },
+  {
+    "item": "minecraft:detector_rail",
+    "emc": 5616
+  },
+  {
+    "item": "supplementaries:timber_brace",
+    "emc": 2248
+  },
+  {
+    "item": "supplementaries:item_shelf",
+    "emc": 843
+  },
+  {
+    "item": "powah:dry_ice",
+    "emc": 50500
+  },
+  {
+    "item": "alltheores:steel_gear",
+    "emc": 197280
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_R2",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.lava_bucket\"}"
+    },
+    "emc": 24324
+  },
+  {
+    "item": "minecraft:blue_ice",
+    "emc": 20250
+  },
+  {
+    "item": "minecraft:composter",
+    "emc": 3934
+  },
+  {
+    "item": "minecraft:ladder",
+    "emc": 1311
+  },
+  {
+    "item": "minecraft:stonecutter",
+    "emc": 6900
+  },
+  {
+    "item": "projecte:dark_matter",
+    "emc": 13310790
+  },
+  {
+    "item": "minecraft:diorite_stairs",
     "emc": 2000
   },
   {
@@ -416,7 +2262,295 @@
     "emc": 4000
   },
   {
+    "item": "minecraft:exposed_cut_copper",
+    "emc": 18
+  },
+  {
+    "item": "minecraft:weathered_copper",
+    "emc": 72
+  },
+  {
+    "item": "minecraft:oak_hanging_sign",
+    "emc": 8690
+  },
+  {
+    "item": "casting:molten_gold_bucket",
+    "emc": 100024
+  },
+  {
+    "item": "minecraft:oxidized_cut_copper",
+    "emc": 18
+  },
+  {
+    "item": "minecraft:golden_boots",
+    "emc": 36000
+  },
+  {
+    "item": "opolisutilities:smart_crafting_table",
+    "emc": 28100
+  },
+  {
+    "item": "minecraft:trapped_chest",
+    "emc": 10285
+  },
+  {
+    "item": "alltheores:steel_ingot",
+    "emc": 49320
+  },
+  {
+    "item": "lctech:battery_large",
+    "emc": 438332
+  },
+  {
+    "item": "minecraft:anvil",
+    "emc": 27900
+  },
+  {
+    "item": "minecraft:red_sand",
+    "emc": 2000
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_R1",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.diamond\"}"
+    },
+    "emc": 4995
+  },
+  {
+    "item": "trashcans:liquid_trash_can",
+    "emc": 16024
+  },
+  {
+    "item": "powah:energy_cable_spirited",
+    "emc": 514847
+  },
+  {
+    "item": "minecraft:stone_brick_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:lantern",
+    "emc": 2065
+  },
+  {
+    "item": "ae2:fluix_axe",
+    "emc": 3824
+  },
+  {
+    "item": "lightmanscurrency:coinpile_copper",
+    "emc": 9
+  },
+  {
+    "item": "minecraft:sand",
+    "emc": 2000
+  },
+  {
+    "item": "powah:energy_discharger_spirited",
+    "emc": 8318976
+  },
+  {
+    "item": "projecte:volcanite_amulet",
+    "emc": 39938370
+  },
+  {
+    "item": "minecraft:oak_stairs",
+    "emc": 1686
+  },
+  {
+    "item": "minecraft:oxidized_copper_grate",
+    "emc": 18
+  },
+  {
+    "item": "minecraft:polished_granite_stairs",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:rail",
+    "emc": 372
+  },
+  {
+    "item": "projecte:red_matter_block",
+    "emc": 196962120
+  },
+  {
+    "item": "supplementaries:slidy_block",
+    "emc": 10400
+  },
+  {
+    "item": "minecraft:gold_nugget",
+    "emc": 1000
+  },
+  {
+    "item": "casting:molten_obsidian_bucket",
+    "emc": 2024
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_I",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.coal\"}"
+    },
+    "emc": 24240
+  },
+  {
+    "item": "supplementaries:speaker_block",
+    "emc": 18982
+  },
+  {
+    "item": "alltheores:netherite_dust",
+    "emc": 999990
+  },
+  {
+    "item": "minecraft:oxidized_copper_trapdoor",
+    "emc": 24
+  },
+  {
+    "item": "lightmanscurrency:coin_iron",
+    "emc": 100
+  },
+  {
+    "item": "minecraft:golden_sword",
+    "emc": 18562
+  },
+  {
+    "item": "casting:efficiency",
+    "emc": 364500
+  },
+  {
+    "item": "supplementaries:gold_trapdoor",
+    "emc": 36000
+  },
+  {
+    "item": "minecraft:redstone_torch",
+    "emc": 24862
+  },
+  {
+    "item": "supplementaries:lock_block",
+    "emc": 32396
+  },
+  {
+    "item": "casting:molten_glass_bucket",
+    "emc": 2024
+  },
+  {
+    "item": "minecraft:andesite",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:weathered_cut_copper_slab",
+    "emc": 9
+  },
+  {
+    "item": "projecte:alchemical_chest",
+    "emc": 119029
+  },
+  {
+    "item": "minecraft:dead_bush",
+    "emc": 2000
+  },
+  {
+    "item": "minecraft:sandstone_slab",
+    "emc": 4000
+  },
+  {
+    "item": "rftoolsbase:information_screen",
+    "emc": 59850
+  },
+  {
+    "item": "minecraft:glass_bottle",
+    "emc": 2000
+  },
+  {
+    "item": "supplementaries:stone_lamp",
+    "emc": 17265
+  },
+  {
+    "item": "minecraft:diamond",
+    "emc": 99990
+  },
+  {
+    "item": "minecraft:packed_ice",
+    "emc": 2250
+  },
+  {
+    "item": "minecraft:compass",
+    "emc": 27900
+  },
+  {
+    "item": "minecraft:chipped_anvil",
+    "emc": 3487
+  },
+  {
+    "item": "projecte:divining_rod_1",
+    "emc": 4658
+  },
+  {
+    "item": "minecraft:oak_planks",
+    "emc": 1124
+  },
+  {
+    "item": "alltheores:netherite_gear",
+    "emc": 3999960
+  },
+  {
+    "item": "minecraft:exposed_cut_copper_slab",
+    "emc": 9
+  },
+  {
+    "item": "minecraft:tuff",
+    "emc": 2000
+  },
+  {
+    "item": "cookingforblockheads:fruit_basket",
+    "emc": 3372
+  },
+  {
+    "item": "lightmanscurrency:coin_ancient",
+    "data": {
+      "lightmanscurrency:ancient_coin_type": "NETHERITE_R2",
+      "minecraft:custom_name": "{\"translate\":\"item.minecraft.copper_ingot\"}"
+    },
+    "emc": 8
+  },
+  {
+    "item": "pipez:advanced_upgrade",
+    "emc": 1436260
+  },
+  {
+    "item": "minecraft:copper_trapdoor",
+    "emc": 24
+  },
+  {
+    "item": "alltheores:diamond_plate",
+    "emc": 99990
+  },
+  {
+    "item": "minecraft:oak_door",
+    "emc": 2248
+  },
+  {
+    "item": "minecraft:exposed_chiseled_copper",
+    "emc": 18
+  },
+  {
+    "item": "powah:energized_steel_block",
+    "emc": 89550
+  },
+  {
+    "item": "projecte:klein_star_sphere",
+    "emc": 819893760
+  },
+  {
+    "item": "minecraft:infested_deepslate",
+    "emc": 2000
+  },
+  {
     "item": "minecraft:polished_granite_slab",
     "emc": 1000
+  },
+  {
+    "item": "casting:molten_stone_bucket",
+    "emc": 2024
   }
 ]
