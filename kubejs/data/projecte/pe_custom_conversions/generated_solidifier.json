@@ -387,9 +387,9 @@
 							"type": "projecte:fluid"
 						},
 						{
-							"count": 1,
 							"type": "projecte:item",
-							"id": "casting:mixer"
+							"id": "casting:mixer",
+							"amount": 1
 						}
 					],
 					"output": {
@@ -692,9 +692,9 @@
 							"type": "projecte:fluid"
 						},
 						{
-							"count": 1,
 							"type": "projecte:item",
-							"id": "minecraft:glass"
+							"id": "minecraft:glass",
+							"amount": 1
 						}
 					],
 					"output": {
@@ -742,9 +742,9 @@
 							"type": "projecte:fluid"
 						},
 						{
-							"count": 1,
 							"type": "projecte:item",
-							"id": "casting:solidifier"
+							"id": "casting:solidifier",
+							"amount": 1
 						}
 					],
 					"output": {
@@ -762,9 +762,9 @@
 							"type": "projecte:fluid"
 						},
 						{
-							"count": 1,
 							"type": "projecte:item",
-							"id": "casting:multiblock_fuel_tank"
+							"id": "casting:multiblock_fuel_tank",
+							"amount": 1
 						}
 					],
 					"output": {
@@ -1307,9 +1307,9 @@
 							"type": "projecte:fluid"
 						},
 						{
-							"count": 1,
 							"type": "projecte:item",
-							"id": "minecraft:glass_bottle"
+							"id": "minecraft:glass_bottle",
+							"amount": 1
 						}
 					],
 					"output": {
@@ -2977,9 +2977,9 @@
 							"type": "projecte:fluid"
 						},
 						{
-							"count": 1,
 							"type": "projecte:item",
-							"id": "casting:controller"
+							"id": "casting:controller",
+							"amount": 1
 						}
 					],
 					"output": {
@@ -3102,9 +3102,9 @@
 							"type": "projecte:fluid"
 						},
 						{
-							"count": 1,
 							"type": "projecte:item",
-							"id": "casting:tank"
+							"id": "casting:tank",
+							"amount": 1
 						}
 					],
 					"output": {

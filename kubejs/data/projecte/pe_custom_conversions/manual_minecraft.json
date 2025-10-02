@@ -8,7 +8,7 @@
             {
               "type": "projecte:item",
               "tag": "c:gravels",
-              "count": 1
+              "amount": 1
             }
           ],
           "output": {
@@ -23,7 +23,7 @@
             {
               "type": "projecte:item",
               "tag": "c:cobblestones",
-              "count": 1
+              "amount": 1
             }
           ],
           "output": {
@@ -58,7 +58,7 @@
             {
               "type": "projecte:item",
               "tag": "c:sands",
-              "count": 1
+              "amount": 1
             },
             {
               "type": "projecte:fluid",
@@ -88,7 +88,7 @@
             {
               "type": "projecte:item",
               "tag": "c:sands",
-              "count": 1
+              "amount": 1
             },
             {
               "comment": "workstation",
@@ -114,13 +114,13 @@
             {
               "type": "projecte:item",
               "tag": "c:rods/wooden",
-              "count": 1
+              "amount": 1
             },
             {
               "comment": "workstation",
               "type": "projecte:item",
               "id": "minecraft:grindstone",
-              "count": 1
+              "amount": 1
             }
           ],
           "output": {
@@ -129,6 +129,38 @@
             "tag": "c:dusts/wood"
           },
           "count": 2
+        }
+      ]
+    },
+    "dropper": {
+      "conversions": [
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:anvil",
+              "amount": 1
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:chipped_anvil"
+          },
+          "count": 8
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "amount": 1,
+              "id": "minecraft:chipped_anvil"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "minecraft:damaged_anvil"
+          },
+          "count": 8
         }
       ]
     }

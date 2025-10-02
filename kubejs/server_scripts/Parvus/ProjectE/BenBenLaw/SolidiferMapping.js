@@ -233,7 +233,7 @@
             });
 
             let conversion = {
-                "ingredients": ingredients
+                "ingredients": ingredients.map(i => JsonUtils.toObject(transposeKey(JsonUtils.toString(i), "count", "amount")))
                     // Filter out invalid ingredients
                     .filter(i => (i.id || i.tag) || (i.type == "projecte:fake")),
                 "output": output
