@@ -47,7 +47,7 @@
             // Locate the relevant compoundTag. Stop at the first find.
             nestTool.forEach(tip => {
                 if (!(tip instanceof Java.loadClass("net.minecraft.nbt.CompoundTag"))) return;
-                tip.putString("text", NUMBER_FORMATTER.format((PROJECTE_FORMATTER.parse(tip.get("text")) / 100)))
+                tip.putString("text", NUMBER_FORMATTER.format((PROJECTE_FORMATTER.parse((tip.get("text")?.asString)) / 100)))
             })
 
             event.lines.set(index, Component.ofTag(nbtLine))
