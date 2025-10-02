@@ -133,6 +133,7 @@
       ]
     },
     "dropper": {
+      "comment": "Though crude, this machine can contain the unpredictability of nature. Positive chances and negative chances, respectively, are calculated as such: ((100/negativeChance)*outputNum) = newOutputCount | ((postiveChance/100)*ingredientAmount) = newIngredientCount",
       "conversions": [
         {
           "ingredients": [
@@ -143,6 +144,7 @@
             }
           ],
           "output": {
+            "comment": "((100/12%)*1) - Through hammer, forge, and labor story is written into steel.",
             "type": "projecte:item",
             "id": "minecraft:chipped_anvil"
           },
@@ -157,6 +159,7 @@
             }
           ],
           "output": {
+            "comment": "((100/12%)*1) - The spines of the book begin to reach their end.",
             "type": "projecte:item",
             "id": "minecraft:damaged_anvil"
           },
