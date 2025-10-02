@@ -212,7 +212,7 @@
         "id": "minecraft:lava"
       },
       {
-        "comment": "Energy, flux. A abstract repersentation of it.",
+        "comment": "Energy, flux. The artifical lightning.",
         "namespace": "flux",
         "description": "energy",
         "type": "projecte:fake",
