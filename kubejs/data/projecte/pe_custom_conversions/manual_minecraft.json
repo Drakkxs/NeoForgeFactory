@@ -103,15 +103,43 @@
             "id": "minecraft:clay_ball"
           },
           "count": 4
+        },
+        {
+          "ingredients": [
+            {
+              "comment": "workstation",
+              "type": "projecte:fluid",
+              "tag": "c:water",
+              "amount": 1000
+            }
+          ],
+          "output": {
+            "comment": "Water that is still.",
+            "type": "projecte:item",
+            "id": "minecraft:ice"
+          },
+          "count": 4
+        },
+        {
+          "ingredients": [
+            {
+              "comment": "workstation",
+              "type": "projecte:item",
+              "id": "minecraft:ice",
+              "amount": 1
+            }
+          ],
+          "output": {
+            "comment": "Crushed ice.",
+            "type": "projecte:item",
+            "id": "minecraft:snowball"
+          },
+          "count": 4
         }
       ]
     },
-    "grindstone": {
-      "comment": "The most basic reperensentation of crushing. A grindstone is a simple tool that can be used to break down materials into their more basic forms.",
-      "conversions": []
-    },
     "smithing_table": {
-      "comment": "A workshop within a block; capable of upgrading hellish materials.",
+      "comment": "A workshop within a block; capable of upgrading even hellish materials. The accessibility of its catalogue of tools allows these conversions to use various workstations.",
       "conversions": [
         {
           "ingredients": [
@@ -136,6 +164,48 @@
             "comment": "Sticks are grinded down to form dust",
             "type": "projecte:item",
             "id": "minecraft:redstone"
+          },
+          "count": 1
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:charcoal",
+              "amount": 4
+            },
+            {
+              "comment": "workstation",
+              "type": "projecte:item",
+              "id": "minecraft:smithing_table",
+              "amount": 1
+            }
+          ],
+          "output": {
+            "comment": "Sticks are grinded down to form dust",
+            "type": "projecte:item",
+            "id": "minecraft:coal"
+          },
+          "count": 1
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:oak_log",
+              "amount": 1
+            },
+            {
+              "comment": "workstation",
+              "type": "projecte:item",
+              "tag": "minecraft:axes",
+              "amount": 1
+            }
+          ],
+          "output": {
+            "comment": "Sticks are grinded down to form dust",
+            "type": "projecte:item",
+            "id": "minecraft:stripped_oak_log"
           },
           "count": 1
         }
