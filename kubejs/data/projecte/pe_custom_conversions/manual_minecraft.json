@@ -80,6 +80,32 @@
         }
       ]
     },
+    "lava": {
+      "comment": "Heat, pressure, power. It is the foundational source of energy. Conversions here may be geological, and themed on the concept of deep reactions within the ground.",
+      "conversions": [
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:dead_bush",
+              "amount": 9
+            },
+            {
+              "comment": "workstation",
+              "type": "projecte:fluid",
+              "id": "minecraft:lava",
+              "amount": 1000
+            }
+          ],
+          "output": {
+            "comment": "Heat Pressure and time all combined to form a resource born from the wrath-rock",
+            "type": "projecte:item",
+            "id": "minecraft:coal"
+          },
+          "count": 3
+        }
+      ]
+    },
     "water": {
       "comment": "Aquatic Conversions - These conversions involve water as a key component, representing processes that occur in aquatic environments.",
       "conversions": [
@@ -171,27 +197,6 @@
           "ingredients": [
             {
               "type": "projecte:item",
-              "id": "minecraft:charcoal",
-              "amount": 4
-            },
-            {
-              "comment": "workstation",
-              "type": "projecte:item",
-              "id": "minecraft:smithing_table",
-              "amount": 1
-            }
-          ],
-          "output": {
-            "comment": "Sticks are grinded down to form dust",
-            "type": "projecte:item",
-            "id": "minecraft:coal"
-          },
-          "count": 1
-        },
-        {
-          "ingredients": [
-            {
-              "type": "projecte:item",
               "id": "minecraft:oak_log",
               "amount": 1
             },
@@ -212,7 +217,7 @@
       ]
     },
     "dropper": {
-      "comment": "Though crude, this machine can contain the unpredictability of nature. Positive chances and negative chances, respectively, are calculated as such: ((100/negativeChance)*outputNum) = newOutputCount | ((postiveChance/100)*ingredientAmount) = newIngredientCount",
+      "comment": "Though crude, this machine can contain the unpredictability of nature.",
       "conversions": [
         {
           "ingredients": [
@@ -223,7 +228,7 @@
             }
           ],
           "output": {
-            "comment": "((100/12%)*1) - Through hammer, forge, and labor story is written into steel. Its value transitions into wisdom.",
+            "comment": "(12%) - Through hammer, forge, and labor story is written into steel. Its value transitions into wisdom.",
             "type": "projecte:item",
             "id": "minecraft:chipped_anvil"
           },
@@ -238,11 +243,26 @@
             }
           ],
           "output": {
-            "comment": "((100/12%)*1) - The spines of the book begin to reach their end. The tome of knowledge is hardly valued for its luster.",
+            "comment": "(12%) - The spines of the book begin to reach their end. The tome of knowledge is hardly valued for its luster.",
             "type": "projecte:item",
             "id": "minecraft:damaged_anvil"
           },
           "count": 8
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "amount": 10,
+              "id": "minecraft:gravel"
+            }
+          ],
+          "output": {
+            "comment": "(10%) - The destruction of gravel has a chance to drop flint",
+            "type": "projecte:item",
+            "id": "minecraft:flint"
+          },
+          "count": 1
         }
       ]
     },
@@ -261,7 +281,7 @@
             "type": "projecte:item",
             "id": "minecraft:oak_log"
           },
-          "count": 4
+          "count": 6
         }
       ]
     }
