@@ -7,7 +7,7 @@
           "ingredients": [
             {
               "type": "projecte:item",
-              "tag": "c:gravels",
+              "id": "minecraft:gravel",
               "amount": 1
             }
           ],
@@ -22,7 +22,7 @@
           "ingredients": [
             {
               "type": "projecte:item",
-              "tag": "c:cobblestones",
+              "id": "minecraft:cobblestone",
               "amount": 1
             }
           ],
@@ -37,12 +37,12 @@
           "ingredients": [
             {
               "type": "projecte:fluid",
-              "tag": "c:lava",
+              "id": "minecraft:lava",
               "amount": 1000
             },
             {
               "type": "projecte:fluid",
-              "tag": "c:water",
+              "id": "minecraft:water",
               "amount": 1000
             }
           ],
@@ -57,17 +57,17 @@
           "ingredients": [
             {
               "type": "projecte:item",
-              "tag": "c:sands",
+              "id": "minecraft:sand",
               "amount": 1
             },
             {
               "type": "projecte:fluid",
-              "tag": "c:lava",
+              "id": "minecraft:lava",
               "amount": 1000
             },
             {
               "type": "projecte:fluid",
-              "tag": "c:water",
+              "id": "minecraft:water",
               "amount": 1000
             }
           ],
@@ -113,13 +113,13 @@
           "ingredients": [
             {
               "type": "projecte:item",
-              "tag": "c:sands",
+              "id": "minecraft:sand",
               "amount": 1
             },
             {
               "comment": "workstation",
               "type": "projecte:fluid",
-              "tag": "c:water",
+              "id": "minecraft:water",
               "amount": 1000
             }
           ],
@@ -135,7 +135,7 @@
             {
               "comment": "workstation",
               "type": "projecte:fluid",
-              "tag": "c:water",
+              "id": "minecraft:water",
               "amount": 1000
             }
           ],
