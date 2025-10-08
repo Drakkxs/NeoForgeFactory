@@ -6,7 +6,6 @@
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
 
-
     let debug = false; // Want some debug?
 
     /** 
