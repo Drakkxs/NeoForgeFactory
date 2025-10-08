@@ -262,6 +262,40 @@
             "type": "projecte:item",
             "id": "minecraft:flint"
           },
+          "count": 4
+        }
+      ]
+    },
+    "cauldron": {
+      "comment": "A cauldron is the chief's tool that witches turn into a workbench. Thus, this workstation is capable of representing alchemical and culinary feats of creation.",
+      "conversions": [
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:gold_ingot",
+              "amount": 1
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:potion",
+              "data": {
+                "minecraft:potion_contents": "minecraft:water"
+              },
+              "amount": 1
+            },
+            { 
+              "comment": "workstation",
+              "type": "projecte:item",
+              "id": "minecraft:cauldron",
+              "amount": 1
+            }
+          ],
+          "output": {
+            "comment": "Water burning with mystical surges attack the gold. What remains is a source of untold material alteration, and the catalyst for enchanting.",
+            "type": "projecte:item",
+            "id": "minecraft:lapis_lazuli"
+          },
           "count": 1
         }
       ]
@@ -311,3 +345,5 @@
     ]
   }
 }
+
+ 
