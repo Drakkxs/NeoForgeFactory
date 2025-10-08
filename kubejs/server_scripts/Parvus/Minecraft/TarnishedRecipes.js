@@ -7,7 +7,7 @@
 (() => {
 
 
-    let debug = true; // Want some debug?
+    let debug = false; // Want some debug?
 
     /** 
      * Return a random tranished stack
