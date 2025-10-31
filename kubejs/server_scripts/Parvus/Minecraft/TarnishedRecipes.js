@@ -26,7 +26,6 @@
         // @ts-expect-error Argument of type 'string' IS assignable to parameter of type '$ItemStack$$Type'
         let ruinStack = Item.of(ruinMaterials[Math.floor(Math.random() * ruinMaterials.length)])
 
-        // @ts-expect-error Argument of type '$Component' IS assignable to parameter of type '$Component$$Type'
         ruinStack.setCustomName(Component.ofString(stack.hoverName?.string || ""))
 
         return ruinStack
