@@ -7,12 +7,9 @@
 (() => {
 
     let $Integer = Java.loadClass("java.lang.Integer")
-    // @ts-expect-error Not in global list of classes
     let $ElementHelper = Java.loadClass("snownee.jade.impl.ui.ElementHelper")
     let $NumberFormat = Java.loadClass("java.text.NumberFormat")
-    // @ts-expect-error Not in global list of classes
     let $Util = Java.loadClass("net.minecraft.Util")
-    // @ts-expect-error Not in global list of classes
     let $IElement = Java.loadClass("snownee.jade.api.ui.IElement")
     let $ListType = Java.loadClass("java.util.ArrayList")
 
@@ -53,7 +50,6 @@
     StartupEvents.postInit(event => {
         let $WailaClientRegistration
         if (Platform.isClientEnvironment()) {
-            // @ts-expect-error 
             $WailaClientRegistration = Java.loadClass("snownee.jade.impl.WailaClientRegistration")
             $WailaClientRegistration.instance().addTooltipCollectedCallback(0, (tooltip, accessor) => {
                 global.jadeCallBack(tooltip, accessor)
