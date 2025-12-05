@@ -59,7 +59,7 @@
 
         // Lead = Iron + Lapis
         // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:lead_ingot', 2), [
+        pShaped(Item.of('immersiveengineering:ingot_lead', 2), [
             'IL'
         ], {
             I: "#c:ingots/iron",
@@ -68,7 +68,7 @@
 
         // Silver = Lead + Copper + Gold + Zinc
         // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:silver_ingot', 4), [
+        pShaped(Item.of('immersiveengineering:ingot_silver', 4), [
             ' C ',
             'LGZ'
         ], {
@@ -91,7 +91,7 @@
 
         // Aluminum = Steel + Clay Ball + Copper + Bonemeal
         // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:aluminum_ingot', 4), [
+        pShaped(Item.of('immersiveengineering:ingot_aluminum', 4), [
             ' Y ',
             'XSX'
         ], {
@@ -102,7 +102,7 @@
 
         // Tin = Fire Charge + Zinc + Iron
         // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:tin_ingot', 3), [
+        pShaped(Item.of('immersiveengineering:ingot_tin', 3), [
             'ZFI'
         ], {
             Z: '#c:ingots/zinc',
@@ -112,7 +112,7 @@
 
         // Nickel = Fire Charge + Zinc + Copper
         // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:nickel_ingot', 3), [
+        pShaped(Item.of('immersiveengineering:ingot_nickel', 3), [
             'NFI'
         ], {
             N: '#c:ingots/nickel',
@@ -122,7 +122,7 @@
 
         // Uranium = TNT + Lapis Block + Iron BLock + Gold Block
         // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:uranium_ingot', 4), [
+        pShaped(Item.of('immersiveengineering:ingot_uranium', 4), [
             ' T ',
             'LIG'
         ], {
@@ -194,7 +194,7 @@
 
         // Osmium = Iron + Flint + Clay Ball
         // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:osmium_ingot', 2), [
+        pShaped(Item.of('mekanism:ingot_osmium', 2), [
             'FBI'
         ], {
             F: "minecraft:flint",
