@@ -58,7 +58,8 @@
         }
 
         // Lead = Iron + Lapis
-        pShaped(Item.of('alltheores:lead_ingot', 2), [
+        // @ts-expect-error
+        pShaped(Item.of('immersiveengineering:lead_ingot', 2), [
             'IL'
         ], {
             I: "#c:ingots/iron",
@@ -66,7 +67,8 @@
         })
 
         // Silver = Lead + Copper + Gold + Zinc
-        pShaped(Item.of('alltheores:silver_ingot', 4), [
+        // @ts-expect-error
+        pShaped(Item.of('immersiveengineering:silver_ingot', 4), [
             ' C ',
             'LGZ'
         ], {
@@ -88,7 +90,8 @@
         })
 
         // Aluminum = Steel + Clay Ball + Copper + Bonemeal
-        pShaped(Item.of('alltheores:aluminum_ingot', 4), [
+        // @ts-expect-error
+        pShaped(Item.of('immersiveengineering:aluminum_ingot', 4), [
             ' Y ',
             'XSX'
         ], {
@@ -98,7 +101,8 @@
         })
 
         // Tin = Fire Charge + Zinc + Iron
-        pShaped(Item.of('alltheores:tin_ingot', 3), [
+        // @ts-expect-error
+        pShaped(Item.of('immersiveengineering:tin_ingot', 3), [
             'ZFI'
         ], {
             Z: '#c:ingots/zinc',
@@ -107,7 +111,8 @@
         })
 
         // Nickel = Fire Charge + Zinc + Copper
-        pShaped(Item.of('alltheores:nickel_ingot', 3), [
+        // @ts-expect-error
+        pShaped(Item.of('immersiveengineering:nickel_ingot', 3), [
             'NFI'
         ], {
             N: '#c:ingots/nickel',
@@ -116,7 +121,8 @@
         })
 
         // Uranium = TNT + Lapis Block + Iron BLock + Gold Block
-        pShaped(Item.of('alltheores:uranium_ingot', 4), [
+        // @ts-expect-error
+        pShaped(Item.of('immersiveengineering:uranium_ingot', 4), [
             ' T ',
             'LIG'
         ], {
@@ -199,6 +205,8 @@
 
     ServerEvents.recipes(e => {
         auxilaryIngot(e)
+
+        e.printExamples("")
     })
 
 })();
