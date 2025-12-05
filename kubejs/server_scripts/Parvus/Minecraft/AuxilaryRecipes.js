@@ -193,7 +193,8 @@
         })
 
         // Osmium = Iron + Flint + Clay Ball
-        pShaped(Item.of('alltheores:osmium_ingot', 2), [
+        // @ts-expect-error
+        pShaped(Item.of('immersiveengineering:osmium_ingot', 2), [
             'FBI'
         ], {
             F: "minecraft:flint",
