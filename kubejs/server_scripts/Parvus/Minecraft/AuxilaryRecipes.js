@@ -6,7 +6,7 @@
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
 
-    let debug = false
+    let debug = true
 
     /** 
      * Ingot Recipes
@@ -96,7 +96,7 @@
 
         // HOPGraphite = Coal/Charcoal + Ingot + Quartz
         // @ts-ignore
-        pShaped({ id: 'immersiveengineering:ingot_hop_graphite', count: 2 }, [
+        pShaped({ item: 'immersiveengineering:ingot_hop_graphite', count: 2 }, [
             ' Q ',
             'CIC',
         ], {
@@ -150,7 +150,7 @@
 
         // Sky Steel = Lava Bucket + Charged Certuz Quartz + Iron + Sky Stone
         // @ts-ignore
-        pShaped({ id: 'megacells:sky_steel_ingot', count: 2 }, [
+        pShaped({ item: 'megacells:sky_steel_ingot', count: 2 }, [
             ' Q ',
             ' X ',
             'SBS'
@@ -163,7 +163,7 @@
 
         // Sky Bronze = Lava Bucket + Charged Certuz Quartz + Copper + Sky Stone
         // @ts-ignore
-        pShaped({ id: 'megacells:sky_bronze_ingot', count: 2 }, [
+        pShaped({ item: 'megacells:sky_bronze_ingot', count: 2 }, [
             ' Q ',
             ' X ',
             'SBS'
@@ -176,7 +176,7 @@
 
         // Sky Osmium = Lava Bucket + Charged Certuz Quartz + Osmium + Sky Stone
         // @ts-ignore
-        pShaped({ id: 'megacells:sky_osmium_ingot', count: 2 }, [
+        pShaped({ item: 'megacells:sky_osmium_ingot', count: 2 }, [
             ' Q ',
             ' X ',
             'SBS'
@@ -189,7 +189,7 @@
 
         // Mithril Scrap = Diamond + Lapis + Gold + Prismarine Shard
         // @ts-ignore
-        pShaped({ id: 'irons_spellbooks:mithril_scrap', count: 2 }, [
+        pShaped({ item: 'irons_spellbooks:mithril_scrap', count: 2 }, [
             ' D ',
             'GLG',
             ' P '
@@ -202,7 +202,7 @@
 
         // Pyrium Ingot = Brass + Bronze + Mithril
         // @ts-ignore
-        pShaped({ id: 'irons_spellbooks:pyrium_ingot', count: 1 }, [
+        pShaped({ item: 'irons_spellbooks:pyrium_ingot', count: 1 }, [
             'XYZ'
         ], {
             X: '#c:ingots/brass',
@@ -224,9 +224,9 @@
         /** [POWERPOTS] */
 
         let powerPots = [
-            { id: 'powerpots:power_pot_1', count: 1 },
-            { id: 'powerpots:power_pot_2', count: 1 },
-            { id: 'powerpots:power_pot_3', count: 1 }
+            { item: 'powerpots:power_pot_1', count: 1 },
+            { item: 'powerpots:power_pot_2', count: 1 },
+            { item: 'powerpots:power_pot_3', count: 1 }
         ]
 
         // PowerPots = Catalyst + Upgrade(s)
@@ -247,7 +247,7 @@
             'XHY',
             'S S'
         ], {
-            C: powerPots[0].id,
+            C: powerPots[0].item,
             H: "minecraft:hopper_minecart",
             X: "minecraft:dispenser",
             Y: "minecraft:dropper",
@@ -260,7 +260,7 @@
             'XHY',
             'SSS'
         ], {
-            C: powerPots[1].id,
+            C: powerPots[1].item,
             H: "minecraft:hopper_minecart",
             X: "minecraft:observer",
             Y: "minecraft:crafter",
