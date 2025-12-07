@@ -6,11 +6,13 @@
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
 
+    let debug = false
+
     /** 
      * Ingot Recipes
-     * @param {$RecipesKubeEvent_} event  
+     * @param {import('dev.latvian.mods.kubejs.recipe.RecipesKubeEvent').$RecipesKubeEvent} event  
      */
-    function auxilaryIngot(event) {
+    function auxRecipes(event) {
 
         /**  
          Craftable:
@@ -46,20 +48,34 @@
 
         /**
          * Shaped Minecraft Recipe
-         * @param {any & import("net.minecraft.world.item.ItemStack").$ItemStack} result 
+         * @param {import("net.minecraft.world.item.ItemStack").$ItemStack$$Type} result 
          * @param {import("java.util.List").$List$$Type<string>} pattern
-         * @param {import("java.util.Map").$Map$$Type<character, import("net.minecraft.world.item.crafting.Ingredient").$Ingredient$$Type>} key
+         * @param {import("java.util.Map").$Map$$Type<character, import('net.minecraft.world.item.crafting.Ingredient').$Ingredient$$Type | string>} key
          */
         function pShaped(result, pattern, key) {
+            if (!Item.isItemStackLike(result)) return debug && console.log('[AuxilaryRecipes] did not consider (' + JsonUtils.toString(result) + ') as item')
             /** @type {any} */
             let r = AlmostUnified.getVariantItemTarget(result)
-            if (Item.of(r).empty) return console.log('[AuxilaryRecipes] did not make recipe for (' + result + ') turned to (' + r + ')')
+            if (Item.of(r).empty) return debug && console.log('[AuxilaryRecipes] did not make recipe for (' + JsonUtils.toString(result) + ') turned to (' + JsonUtils.toString(r) + ')')
+            // @ts-expect-errorF
             return event.recipes.minecraft.crafting_shaped(r, pattern, key)
         }
 
+        /** [[INGOTS]] */
+
+        // Osmium = Iron + Flint + Clay Ball
+        // @ts-ignore
+        pShaped(Ingredient.of('#c:ingots/osmium').first.withCount(2), [
+            'FBI'
+        ], {
+            F: "minecraft:flint",
+            B: 'minecraft:clay_ball',
+            I: "#c:ingots/iron"
+        })
+
         // Lead = Iron + Lapis
-        // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:ingot_lead', 2), [
+        // @ts-ignore
+        pShaped(Ingredient.of('#c:ingots/lead').first.withCount(2), [
             'IL'
         ], {
             I: "#c:ingots/iron",
@@ -67,8 +83,8 @@
         })
 
         // Silver = Lead + Copper + Gold + Zinc
-        // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:ingot_silver', 4), [
+        // @ts-ignore
+        pShaped(Ingredient.of('#c:ingots/silver').first.withCount(4), [
             ' C ',
             'LGZ'
         ], {
@@ -79,8 +95,8 @@
         })
 
         // HOPGraphite = Coal/Charcoal + Ingot + Quartz
-        // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:ingot_hop_graphite', 4), [
+        // @ts-ignore
+        pShaped({ id: 'immersiveengineering:ingot_hop_graphite', count: 2 }, [
             ' Q ',
             'CIC',
         ], {
@@ -90,8 +106,8 @@
         })
 
         // Aluminum = Steel + Clay Ball + Copper + Bonemeal
-        // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:ingot_aluminum', 4), [
+        // @ts-ignore
+        pShaped(Ingredient.of('#c:ingots/aluminum').first.withCount(4), [
             ' Y ',
             'XSX'
         ], {
@@ -101,8 +117,8 @@
         })
 
         // Tin = Fire Charge + Zinc + Iron
-        // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:ingot_tin', 3), [
+        // @ts-ignore
+        pShaped(Ingredient.of('#c:ingots/tin').first.withCount(3), [
             'ZFI'
         ], {
             Z: '#c:ingots/zinc',
@@ -111,8 +127,8 @@
         })
 
         // Nickel = Fire Charge + Zinc + Copper
-        // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:ingot_nickel', 3), [
+        // @ts-ignore
+        pShaped(Ingredient.of('#c:ingots/nickel').first.withCount(3), [
             'NFI'
         ], {
             N: '#c:ingots/nickel',
@@ -121,8 +137,8 @@
         })
 
         // Uranium = TNT + Lapis Block + Iron BLock + Gold Block
-        // @ts-expect-error
-        pShaped(Item.of('immersiveengineering:ingot_uranium', 4), [
+        // @ts-ignore
+        pShaped(Ingredient.of('#c:ingots/uranium').first.withCount(4), [
             ' T ',
             'LIG'
         ], {
@@ -133,7 +149,8 @@
         })
 
         // Sky Steel = Lava Bucket + Charged Certuz Quartz + Iron + Sky Stone
-        pShaped(Item.of('megacells:sky_steel_ingot', 2), [
+        // @ts-ignore
+        pShaped({ id: 'megacells:sky_steel_ingot', count: 2 }, [
             ' Q ',
             ' X ',
             'SBS'
@@ -145,7 +162,8 @@
         })
 
         // Sky Bronze = Lava Bucket + Charged Certuz Quartz + Copper + Sky Stone
-        pShaped(Item.of('megacells:sky_bronze_ingot', 2), [
+        // @ts-ignore
+        pShaped({ id: 'megacells:sky_bronze_ingot', count: 2 }, [
             ' Q ',
             ' X ',
             'SBS'
@@ -157,7 +175,8 @@
         })
 
         // Sky Osmium = Lava Bucket + Charged Certuz Quartz + Osmium + Sky Stone
-        pShaped(Item.of('megacells:sky_osmium_ingot', 2), [
+        // @ts-ignore
+        pShaped({ id: 'megacells:sky_osmium_ingot', count: 2 }, [
             ' Q ',
             ' X ',
             'SBS'
@@ -169,8 +188,8 @@
         })
 
         // Mithril Scrap = Diamond + Lapis + Gold + Prismarine Shard
-        // @ts-expect-error
-        pShaped(Item.of('irons_spellbooks:mithril_scrap', 2), [
+        // @ts-ignore
+        pShaped({ id: 'irons_spellbooks:mithril_scrap', count: 2 }, [
             ' D ',
             'GLG',
             ' P '
@@ -182,32 +201,77 @@
         })
 
         // Pyrium Ingot = Brass + Bronze + Mithril
-        // @ts-expect-error
-        pShaped(Item.of('irons_spellbooks:pyrium_ingot', 1), [
+        // @ts-ignore
+        pShaped({ id: 'irons_spellbooks:pyrium_ingot', count: 1 }, [
             'XYZ'
         ], {
             X: '#c:ingots/brass',
             Y: '#c:ingots/bronze',
-            // @ts-expect-error
             Z: 'irons_spellbooks:mithril_scrap'
         })
 
-        // Osmium = Iron + Flint + Clay Ball
-        // @ts-expect-error
-        pShaped(Item.of('mekanism:ingot_osmium', 2), [
-            'FBI'
+        /** [[FLOURITE]] */
+
+        // Fluorite = Bonemeal + Amethyst
+        // @ts-ignore
+        pShaped(Ingredient.of('#c:gems/fluorite').first.withCount(3), [
+            'ABA'
         ], {
-            F: "minecraft:flint",
-            B: 'minecraft:clay_ball',
-            I: "#c:ingots/iron"
+            B: "minecraft:bone_meal",
+            A: "#c:gems/amethyst"
         })
+
+        /** [POWERPOTS] */
+
+        let powerPots = [
+            { id: 'powerpots:power_pot_1', count: 1 },
+            { id: 'powerpots:power_pot_2', count: 1 },
+            { id: 'powerpots:power_pot_3', count: 1 }
+        ]
+
+        // PowerPots = Catalyst + Upgrade(s)
+        // @ts-ignore
+        pShaped(powerPots[0], [
+            'C',
+            'H',
+            'S'
+        ], {
+            C: "#botanypots:botany_pots",
+            H: "minecraft:hopper_minecart",
+            S: "minecraft:sugar"
+        })
+
+        // @ts-ignore
+        pShaped(powerPots[1], [
+            ' C ',
+            'XHY',
+            'S S'
+        ], {
+            C: powerPots[0].id,
+            H: "minecraft:hopper_minecart",
+            X: "minecraft:dispenser",
+            Y: "minecraft:dropper",
+            S: "minecraft:sugar"
+        })
+
+        // @ts-ignore
+        pShaped(powerPots[2], [
+            ' C ',
+            'XHY',
+            'SSS'
+        ], {
+            C: powerPots[1].id,
+            H: "minecraft:hopper_minecart",
+            X: "minecraft:observer",
+            Y: "minecraft:crafter",
+            S: "minecraft:sugar"
+        })
+
 
     }
 
     ServerEvents.recipes(e => {
-        auxilaryIngot(e)
-
-        e.printExamples("")
+        auxRecipes(e)
     })
 
 })();
