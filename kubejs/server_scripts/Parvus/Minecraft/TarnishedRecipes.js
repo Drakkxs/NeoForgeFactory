@@ -26,7 +26,7 @@
         // @ts-expect-error Argument of type 'string' IS assignable to parameter of type '$ItemStack$$Type'
         let ruinStack = Item.of(ruinMaterials[Math.floor(Math.random() * ruinMaterials.length)])
 
-        ruinStack.setCustomName(Component.ofString(stack.hoverName?.string || ""))
+        ruinStack.setCustomName(Component.ofString(String(stack.hoverName.getString()) || ""))
 
         return ruinStack
     }
@@ -48,17 +48,16 @@
      * @param {import("net.minecraft.world.item.ItemStack").$ItemStack} stack
      */
     function tarnishRecipe(recipe, stack) {
-        recipe.replaceOutput({ match: /()/ }, ruinStack(stack))
+        recipe.set('result', ruinStack(stack))
     }
 
     ServerEvents.recipes(event => {
-
         // Prevent modded recipes that define vanilla items
         // @ts-expect-error type can be arbitrary strings
         event.forEachRecipe({ or: [{ type: "minecraft:crafting_shaped" }, { type: "minecraft:crafting_shapeless" }] }, function (recipe) {
 
             // Only modded recipes
-            if (recipe.getId().startsWith("minecraft:")) return
+            if (String(recipe.getId()).startsWith("minecraft:")) return
 
             // Result has to be vanilla
             if (!(isVanillaItem(recipe.originalRecipeResult))) {

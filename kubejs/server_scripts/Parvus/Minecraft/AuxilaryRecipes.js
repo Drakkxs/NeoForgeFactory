@@ -48,190 +48,192 @@
 
         /**
          * Shaped Minecraft Recipe
-         * @param {import("net.minecraft.world.item.ItemStack").$ItemStack$$Type} result 
+         * @param {any} stack
          * @param {import("java.util.List").$List$$Type<string>} pattern
-         * @param {import("java.util.Map").$Map$$Type<character, import('net.minecraft.world.item.crafting.Ingredient').$Ingredient$$Type | string>} key
+         * @param {import("java.util.Map").$Map$$Type<character, import('net.minecraft.world.item.crafting.Ingredient').$Ingredient$$Type | string>} ingredients
          */
-        function pShaped(result, pattern, key) {
-            if (!Item.isItemStackLike(result)) return debug && console.log('[AuxilaryRecipes] did not consider (' + JsonUtils.toString(result) + ') as item')
-            /** @type {any} */
-            let r = AlmostUnified.getVariantItemTarget(result)
-            if (Item.of(r).empty) return debug && console.log('[AuxilaryRecipes] did not make recipe for (' + JsonUtils.toString(result) + ') turned to (' + JsonUtils.toString(r) + ')')
-            // @ts-expect-errorF
-            return event.recipes.minecraft.crafting_shaped(r, pattern, key)
+        function pShaped(stack, pattern, ingredients) {
+            if (!Item.isItemStackLike(stack)) {
+                debug && console.log('[AuxilaryRecipes] did not consider (' + stack + ') as item')
+                return
+            }
+
+
+            debug && console.log('[AuxilaryRecipes] considering (' + stack + ') as item')
+            // @ts-ignore
+            let r = AlmostUnified.getVariantItemTarget(stack).withCount(stack.count)
+            stack = r.empty ? stack : r
+
+            debug && console.log('[AuxilaryRecipes] Finished (' + stack.toStringJS() + ')')
+            // @ts-ignore
+            return event.recipes.minecraft.crafting_shaped(stack, pattern, ingredients)
+        }
+
+        /**
+         * Shapeless Minecraft Recipe
+         * @param {any} stack
+         * @param {string[]} ingredients
+         */
+        function pShapeless(stack, ingredients) {
+            if (!Item.isItemStackLike(stack)) {
+                debug && console.log('[AuxilaryRecipes] did not consider (' + stack + ') as item')
+                return
+            }
+
+            debug && console.log('[AuxilaryRecipes] considering (' + stack + ') as item')
+            // @ts-ignore
+            let r = AlmostUnified.getVariantItemTarget(stack).withCount(stack.count)
+            stack = r.empty ? stack : r
+
+            debug && console.log('[AuxilaryRecipes] Finished (' + stack.toStringJS() + ')')
+            // @ts-ignore
+            return event.recipes.minecraft.crafting_shapeless(stack, ingredients)
         }
 
         /** [[INGOTS]] */
 
         // Osmium = Iron + Flint + Clay Ball
         // @ts-ignore
-        pShaped(Ingredient.of('#c:ingots/osmium').first.withCount(2), [
-            'FBI'
-        ], {
-            F: "minecraft:flint",
-            B: 'minecraft:clay_ball',
-            I: "#c:ingots/iron"
-        })
+        pShapeless(Ingredient.of('#c:ingots/osmium').first.withCount(2), [
+            "#c:gunpowders",
+            "minecraft:flint",
+            'minecraft:clay_ball',
+            "#c:ingots/iron"
+        ])
 
         // Lead = Iron + Lapis
         // @ts-ignore
-        pShaped(Ingredient.of('#c:ingots/lead').first.withCount(2), [
-            'IL'
-        ], {
-            I: "#c:ingots/iron",
-            L: "#c:gems/lapis"
-        })
+        pShapeless(Ingredient.of('#c:ingots/lead').first.withCount(2), [
+            "#c:gunpowders",
+            "#c:ingots/iron",
+            "#c:gems/lapis"
+        ])
 
         // Silver = Lead + Copper + Gold + Zinc
         // @ts-ignore
-        pShaped(Ingredient.of('#c:ingots/silver').first.withCount(4), [
-            ' C ',
-            'LGZ'
-        ], {
-            L: "#c:ingots/lead",
-            C: "#c:ingots/copper",
-            G: "#c:ingots/gold",
-            Z: "#c:ingots/zinc"
-        })
-
-        // HOPGraphite = Coal/Charcoal + Ingot + Quartz
-        // @ts-ignore
-        pShaped({ item: 'immersiveengineering:ingot_hop_graphite', count: 2 }, [
-            ' Q ',
-            'CIC',
-        ], {
-            Q: '#c:gems/quartz',
-            I: '#c:ingots/iron',
-            C: '#minecraft:coals'
-        })
+        pShapeless(Ingredient.of('#c:ingots/silver').first.withCount(4), [
+            "#c:gunpowders",
+            "#c:ingots/lead",
+            "#c:ingots/copper",
+            "#c:ingots/gold",
+            "#c:ingots/zinc"
+        ])
 
         // Aluminum = Steel + Clay Ball + Copper + Bonemeal
         // @ts-ignore
-        pShaped(Ingredient.of('#c:ingots/aluminum').first.withCount(4), [
-            ' Y ',
-            'XSX'
-        ], {
-            S: '#c:ingots/steel',
-            X: 'minecraft:clay_ball',
-            Y: '#c:ingots/copper'
-        })
+        pShapeless(Ingredient.of('#c:ingots/aluminum').first.withCount(4), [
+            "#c:gunpowders",
+            '#c:ingots/steel',
+            'minecraft:clay_ball',
+            '#c:ingots/copper'
+        ])
 
         // Tin = Fire Charge + Zinc + Iron
         // @ts-ignore
-        pShaped(Ingredient.of('#c:ingots/tin').first.withCount(3), [
-            'ZFI'
-        ], {
-            Z: '#c:ingots/zinc',
-            F: 'minecraft:fire_charge',
-            I: '#c:ingots/iron'
-        })
+        pShapeless(Ingredient.of('#c:ingots/tin').first.withCount(3), [
+            '#c:ingots/zinc',
+            'minecraft:fire_charge',
+            '#c:ingots/iron'
+        ])
 
         // Nickel = Fire Charge + Zinc + Copper
         // @ts-ignore
-        pShaped(Ingredient.of('#c:ingots/nickel').first.withCount(3), [
-            'NFI'
-        ], {
-            N: '#c:ingots/nickel',
-            F: 'minecraft:fire_charge',
-            I: '#c:ingots/copper'
-        })
+        pShapeless(Ingredient.of('#c:ingots/nickel').first.withCount(3), [
+            '#c:ingots/nickel',
+            'minecraft:fire_charge',
+            '#c:ingots/copper'
+        ])
 
-        // Uranium = TNT + Lapis Block + Iron BLock + Gold Block
+        // Uranium = Gunpowder + Lapis + Iron + Gold
         // @ts-ignore
-        pShaped(Ingredient.of('#c:ingots/uranium').first.withCount(4), [
-            ' T ',
-            'LIG'
-        ], {
-            T: 'minecraft:tnt',
-            L: '#c:storage_blocks/lapis',
-            I: '#c:storage_blocks/iron',
-            G: '#c:storage_blocks/gold'
-        })
+        pShapeless(Ingredient.of('#c:ingots/uranium').first.withCount(4), [
+            "#c:gunpowders",
+            "#c:gunpowders",
+            "#c:gunpowders",
+            "#c:gunpowders",
+            "#c:gunpowders",
+            "#c:gunpowders",
+            "#c:gems/lapis",
+            "#c:ingots/iron",
+            "#c:ingots/gold"
+        ])
+
+        // HOPGraphite = Coal/Charcoal + Ingot + Quartz
+        // @ts-ignore
+        pShapeless(Ingredient.of('#c:ingots/hop_graphite').first.withCount(2), [
+            "#c:gunpowders",
+            '#c:gems/quartz',
+            '#c:ingots/iron',
+            '#minecraft:coals'
+        ])
 
         // Sky Steel = Lava Bucket + Charged Certuz Quartz + Iron + Sky Stone
         // @ts-ignore
-        pShaped({ item: 'megacells:sky_steel_ingot', count: 2 }, [
-            ' Q ',
-            ' X ',
-            'SBS'
-        ], {
-            B: 'minecraft:lava_bucket',
-            S: 'ae2:sky_stone_block',
-            X: '#c:ingots/iron',
-            Q: 'ae2:charged_certus_quartz_crystal'
-        })
+        pShapeless(Ingredient.of('#c:ingots/sky_steel').first.withCount(2), [
+            'minecraft:fire_charge',
+            'ae2:sky_stone_block',
+            '#c:ingots/iron',
+            'ae2:charged_certus_quartz_crystal'
+        ])
 
         // Sky Bronze = Lava Bucket + Charged Certuz Quartz + Copper + Sky Stone
         // @ts-ignore
-        pShaped({ item: 'megacells:sky_bronze_ingot', count: 2 }, [
-            ' Q ',
-            ' X ',
-            'SBS'
-        ], {
-            B: 'minecraft:lava_bucket',
-            S: 'ae2:sky_stone_block',
-            X: '#c:ingots/copper',
-            Q: 'ae2:charged_certus_quartz_crystal'
-        })
+        pShapeless(Ingredient.of('#c:ingots/sky_bronze').first.withCount(2), [
+            'minecraft:fire_charge',
+            'ae2:sky_stone_block',
+            '#c:ingots/copper',
+            'ae2:charged_certus_quartz_crystal'
+        ])
 
         // Sky Osmium = Lava Bucket + Charged Certuz Quartz + Osmium + Sky Stone
         // @ts-ignore
-        pShaped({ item: 'megacells:sky_osmium_ingot', count: 2 }, [
-            ' Q ',
-            ' X ',
-            'SBS'
-        ], {
-            B: 'minecraft:lava_bucket',
-            S: 'ae2:sky_stone_block',
-            X: '#c:ingots/osmium',
-            Q: 'ae2:charged_certus_quartz_crystal'
-        })
+        pShapeless(Ingredient.of('#c:ingots/sky_osmium').first.withCount(2), [
+            'minecraft:fire_charge',
+            'ae2:sky_stone_block',
+            '#c:ingots/osmium',
+            'ae2:charged_certus_quartz_crystal'
+        ])
 
         // Mithril Scrap = Diamond + Lapis + Gold + Prismarine Shard
         // @ts-ignore
-        pShaped({ item: 'irons_spellbooks:mithril_scrap', count: 2 }, [
-            ' D ',
-            'GLG',
-            ' P '
-        ], {
-            D: '#c:gems/diamond',
-            L: '#c:gems/lapis',
-            G: '#c:ingots/gold',
-            P: '#c:gems/prismarine'
-        })
+        pShapeless(Ingredient.of('irons_spellbooks:mithril_scrap').first.withCount(2), [
+            'minecraft:fire_charge',
+            '#c:gems/diamond',
+            '#c:gems/lapis',
+            '#c:ingots/gold',
+            '#c:gems/prismarine'
+        ])
 
         // Pyrium Ingot = Brass + Bronze + Mithril
         // @ts-ignore
-        pShaped({ item: 'irons_spellbooks:pyrium_ingot', count: 1 }, [
-            'XYZ'
-        ], {
-            X: '#c:ingots/brass',
-            Y: '#c:ingots/bronze',
-            Z: 'irons_spellbooks:mithril_scrap'
-        })
+        pShapeless(Ingredient.of('#c:ingots/pyrium').first.withCount(1), [
+            'minecraft:fire_charge',
+            '#c:ingots/brass',
+            '#c:ingots/bronze',
+            'irons_spellbooks:mithril_scrap'
+        ])
 
         /** [[FLOURITE]] */
 
         // Fluorite = Bonemeal + Amethyst
         // @ts-ignore
-        pShaped(Ingredient.of('#c:gems/fluorite').first.withCount(3), [
-            'ABA'
-        ], {
-            B: "minecraft:bone_meal",
-            A: "#c:gems/amethyst"
-        })
+        pShapeless(Ingredient.of('#c:gems/fluorite').first.withCount(3), [
+            'minecraft:fire_charge',
+            "minecraft:bone_meal",
+            "#c:gems/amethyst"
+        ])
 
         /** [POWERPOTS] */
 
         let powerPots = [
-            { item: 'powerpots:power_pot_1', count: 1 },
-            { item: 'powerpots:power_pot_2', count: 1 },
-            { item: 'powerpots:power_pot_3', count: 1 }
+            { id: 'powerpots:power_pot_1', count: 1 },
+            { id: 'powerpots:power_pot_2', count: 1 },
+            { id: 'powerpots:power_pot_3', count: 1 }
         ]
 
         // PowerPots = Catalyst + Upgrade(s)
         // @ts-ignore
-        pShaped(powerPots[0], [
+        pShaped(Ingredient.of(powerPots[0].id).first.withCount(powerPots[0].count), [
             'C',
             'H',
             'S'
@@ -242,12 +244,12 @@
         })
 
         // @ts-ignore
-        pShaped(powerPots[1], [
+        pShaped(Ingredient.of(powerPots[1].id).first.withCount(powerPots[1].count), [
             ' C ',
             'XHY',
             'S S'
         ], {
-            C: powerPots[0].item,
+            C: powerPots[0].id,
             H: "minecraft:hopper_minecart",
             X: "minecraft:dispenser",
             Y: "minecraft:dropper",
@@ -255,12 +257,12 @@
         })
 
         // @ts-ignore
-        pShaped(powerPots[2], [
+        pShaped(Ingredient.of(powerPots[2].id).first.withCount(powerPots[2].count), [
             ' C ',
             'XHY',
             'SSS'
         ], {
-            C: powerPots[1].item,
+            C: powerPots[1].id,
             H: "minecraft:hopper_minecart",
             X: "minecraft:observer",
             Y: "minecraft:crafter",
